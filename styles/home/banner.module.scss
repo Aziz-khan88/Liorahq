@@ -1,0 +1,120 @@
+.bannerSection {
+  height: 940px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  &::after {
+    content: "";
+    background: linear-gradient(
+      270deg,
+      rgba(12, 42, 86, 0.3) 0%,
+      rgba(12, 42, 86, 0.3) 61.04%
+    );
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  h1 {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+  }
+  .bannerContent {
+    width: 50%;
+    margin-left: auto;
+    position: relative;
+    z-index: 1;
+    p {
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .bannerSection {
+    height: 700px;
+    h1 {
+      width: 40%;
+      padding-top: 70px;
+    }
+    .bannerContent {
+      width: 50%;
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .bannerSection {
+    height: 700px;
+    h1 {
+      width: 40%;
+      padding-top: 70px;
+    }
+    .bannerContent {
+      width: 50%;
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .bannerSection {
+    height: 700px;
+    h1 {
+      width: 45%;
+      padding-top: 60px;
+    }
+    .bannerContent {
+      width: 45%;
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .bannerSection {
+    height: 700px;
+    h1 {
+      width: 45%;
+      padding-top: 50px;
+    }
+    .bannerContent {
+      width: 45%;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .bannerSection {
+    height: 650px;
+    h1 {
+      width: 65%;
+      padding-top: 50px;
+    }
+    .bannerContent {
+      width: 65%;
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .bannerSection {
+    height: 550px;
+    h1 {
+      width: 100%;
+      padding-top: 50px;
+    }
+    .bannerContent {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .bannerSection {
+    height: 550px;
+    h1 {
+      width: 100%;
+      padding-top: 50px;
+    }
+    .bannerContent {
+      width: 100%;
+    }
+  }
+}

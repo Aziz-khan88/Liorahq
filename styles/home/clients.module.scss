@@ -1,0 +1,413 @@
+.clientsSection {
+  background: #fff;
+  h2 {
+    margin-bottom: 40px;
+  }
+  .embla {
+    .embla__viewport {
+      overflow: hidden;
+      .embla__container {
+        backface-visibility: hidden;
+        display: flex;
+        touch-action: pan-y pinch-zoom;
+        margin-left: calc(10px * -1);
+        .embla__slide {
+          min-width: 0;
+          flex: 0 0 calc(100% / 3);
+          padding-left: 10px;
+          .clientsItem {
+            .txt {
+              height: 220px;
+              background: #f5f7f9;
+              border-radius: 36px;
+              display: flex;
+              justify-content: center;
+              padding: 40px 40px 40px 70px;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 17px;
+              line-height: 27px;
+              letter-spacing: -0.54px;
+              color: #0f0f0f;
+              position: relative;
+              margin-bottom: 30px;
+              &::before {
+                content: '"';
+                font-size: 100px;
+                color: #1a76ff;
+                position: absolute;
+                height: 30px;
+                left: 25px;
+                top: 80px;
+              }
+            }
+            .pic {
+              position: relative;
+              width: 73px;
+              height: 73px;
+              margin-bottom: 10px;
+              img {
+                object-fit: cover;
+                border-radius: 100%;
+              }
+            }
+            .name {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 21.6px;
+              line-height: 30px;
+              letter-spacing: -0.216px;
+              color: #0f0f0f;
+            }
+            .job {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 13.2px;
+              line-height: 18px;
+              letter-spacing: 0.66px;
+              text-transform: uppercase;
+              color: #0f0f0f;
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .clientsSection {
+    h2 {
+      margin-bottom: 40px;
+    }
+    .embla {
+      .embla__viewport {
+        .embla__container {
+          margin-left: calc(10px * -1);
+          .embla__slide {
+            flex: 0 0 calc(100% / 3);
+            padding-left: 10px;
+            .clientsItem {
+              .txt {
+                height: 180px;
+                border-radius: 32px;
+                padding: 30px 30px 30px 60px;
+                font-size: 15px;
+                line-height: 22px;
+                margin-bottom: 30px;
+                &::before {
+                  content: '"';
+                  font-size: 80px;
+                  height: 30px;
+                  left: 25px;
+                  top: 60px;
+                }
+              }
+              .pic {
+                width: 65px;
+                height: 65px;
+              }
+              .name {
+                font-size: 18px;
+                line-height: 26px;
+              }
+              .job {
+                font-size: 12px;
+                line-height: 18px;
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .clientsSection {
+    h2 {
+      margin-bottom: 35px;
+    }
+    .embla {
+      .embla__viewport {
+        .embla__container {
+          margin-left: calc(10px * -1);
+          .embla__slide {
+            flex: 0 0 calc(100% / 3);
+            padding-left: 10px;
+            .clientsItem {
+              .txt {
+                height: 180px;
+                border-radius: 30px;
+                padding: 30px 30px 30px 60px;
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom: 30px;
+                &::before {
+                  content: '"';
+                  font-size: 80px;
+                  height: 30px;
+                  left: 25px;
+                  top: 60px;
+                }
+              }
+              .pic {
+                width: 60px;
+                height: 60px;
+              }
+              .name {
+                font-size: 16px;
+                line-height: 24px;
+              }
+              .job {
+                font-size: 11px;
+                line-height: 18px;
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .clientsSection {
+    h2 {
+      margin-bottom: 25px;
+    }
+    .embla {
+      .embla__viewport {
+        .embla__container {
+          margin-left: calc(10px * -1);
+          .embla__slide {
+            flex: 0 0 calc(100% / 3);
+            padding-left: 10px;
+            .clientsItem {
+              .txt {
+                height: 170px;
+                border-radius: 30px;
+                padding: 25px 25px 25px 60px;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 30px;
+                &::before {
+                  content: '"';
+                  font-size: 80px;
+                  height: 30px;
+                  left: 25px;
+                  top: 60px;
+                }
+              }
+              .pic {
+                width: 50px;
+                height: 50px;
+              }
+              .name {
+                font-size: 15px;
+                line-height: 24px;
+              }
+              .job {
+                font-size: 11px;
+                line-height: 18px;
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .clientsSection {
+    h2 {
+      margin-bottom: 25px;
+    }
+    .embla {
+      .embla__viewport {
+        .embla__container {
+          margin-left: calc(10px * -1);
+          .embla__slide {
+            flex: 0 0 calc(100% / 2.4);
+            padding-left: 10px;
+            .clientsItem {
+              .txt {
+                height: 160px;
+                border-radius: 30px;
+                padding: 25px 25px 25px 60px;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                &::before {
+                  content: '"';
+                  font-size: 80px;
+                  height: 30px;
+                  left: 25px;
+                  top: 60px;
+                }
+              }
+              .pic {
+                width: 50px;
+                height: 50px;
+              }
+              .name {
+                font-size: 15px;
+                line-height: 24px;
+              }
+              .job {
+                font-size: 10px;
+                line-height: 18px;
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .clientsSection {
+    h2 {
+      margin-bottom: 25px;
+    }
+    .embla {
+      .embla__viewport {
+        .embla__container {
+          margin-left: calc(10px * -1);
+          .embla__slide {
+            flex: 0 0 calc(100% / 1.8);
+            padding-left: 10px;
+            .clientsItem {
+              .txt {
+                height: 140px;
+                border-radius: 20px;
+                padding: 20px 20px 20px 50px;
+                font-size: 13px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                &::before {
+                  content: '"';
+                  font-size: 70px;
+                  height: 30px;
+                  left: 20px;
+                  top: 50px;
+                }
+              }
+              .pic {
+                width: 50px;
+                height: 50px;
+              }
+              .name {
+                font-size: 14px;
+                line-height: 22px;
+              }
+              .job {
+                font-size: 10px;
+                line-height: 18px;
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .clientsSection {
+    h2 {
+      margin-bottom: 20px;
+    }
+    .embla {
+      .embla__viewport {
+        .embla__container {
+          margin-left: calc(10px * -1);
+          .embla__slide {
+            flex: 0 0 calc(100% / 1.6);
+            padding-left: 10px;
+            .clientsItem {
+              .txt {
+                height: 140px;
+                border-radius: 20px;
+                padding: 20px 20px 20px 50px;
+                font-size: 13px;
+                line-height: 18px;
+                margin-bottom: 20px;
+                &::before {
+                  content: '"';
+                  font-size: 70px;
+                  height: 30px;
+                  left: 20px;
+                  top: 50px;
+                }
+              }
+              .pic {
+                width: 50px;
+                height: 50px;
+              }
+              .name {
+                font-size: 14px;
+                line-height: 22px;
+              }
+              .job {
+                font-size: 10px;
+                line-height: 18px;
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .clientsSection {
+    h2 {
+      margin-bottom: 20px;
+    }
+    .embla {
+      .embla__viewport {
+        .embla__container {
+          margin-left: calc(10px * -1);
+          .embla__slide {
+            flex: 0 0 calc(100%);
+            padding-left: 10px;
+            .clientsItem {
+              .txt {
+                height: auto;
+                border-radius: 20px;
+                padding: 20px 20px 20px 50px;
+                font-size: 13px;
+                line-height: 18px;
+                margin-bottom: 20px;
+                &::before {
+                  content: '"';
+                  font-size: 70px;
+                  height: 30px;
+                  left: 20px;
+                  top: 50px;
+                }
+              }
+              .pic {
+                width: 45px;
+                height: 45px;
+              }
+              .name {
+                font-size: 13px;
+                line-height: 22px;
+              }
+              .job {
+                font-size: 10px;
+                line-height: 18px;
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

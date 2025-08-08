@@ -1,0 +1,518 @@
+.headerSection {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(22px);
+  position: fixed;
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  height: 100px;
+  z-index: 99;
+
+  .logoLink {
+    svg {
+      width: auto;
+      height: 60px;
+    }
+  }
+
+  .headerNavigation {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 100px;
+
+      li {
+        margin-left: 50px;
+
+        a {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 25px;
+          height: 100%;
+          color: #ffffff;
+          transition: all 0.3s ease-in-out; // 💡 Add this for smooth transitions
+
+          &:hover {
+            color: #1a76ff;
+          }
+        }
+
+        &:nth-last-child(2) {
+          margin-left: 30px;
+
+          a {
+            background: transparent;
+            border-radius: 79px;
+            width: 150px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ffffff;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 25px;
+            color: #ffffff;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              background: #1a76ff;
+              border: 1px solid #1a76ff;
+              color: #fff;
+            }
+          }
+        }
+
+        &:last-child {
+          margin-left: 15px;
+
+          a {
+            background: #1a76ff;
+            border-radius: 79px;
+            width: 150px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #1a76ff;
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              background: #fff;
+              border: 1px solid #fff;
+              color: #1a76ff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .headerSection {
+    height: 90px;
+    .logoLink {
+      svg {
+        height: 55px;
+      }
+    }
+
+    .headerNavigation {
+      ul {
+        height: 90px;
+
+        li {
+          margin-left: 50px;
+
+          a {
+            font-size: 18px;
+            line-height: 25px;
+          }
+
+          &:nth-last-child(2) {
+            margin-left: 30px;
+
+            a {
+              width: 150px;
+              height: 50px;
+              font-size: 18px;
+              line-height: 22px;
+            }
+          }
+
+          &:last-child {
+            margin-left: 15px;
+
+            a {
+              width: 150px;
+              height: 50px;
+              font-size: 18px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .headerSection {
+    height: 80px;
+    .logoLink {
+      svg {
+        height: 52px;
+      }
+    }
+
+    .headerNavigation {
+      ul {
+        height: 80px;
+
+        li {
+          margin-left: 50px;
+
+          a {
+            font-size: 17px;
+            line-height: 22px;
+          }
+
+          &:nth-last-child(2) {
+            margin-left: 30px;
+
+            a {
+              width: 150px;
+              height: 45px;
+              font-size: 17px;
+              line-height: 22px;
+            }
+          }
+
+          &:last-child {
+            margin-left: 15px;
+
+            a {
+              width: 150px;
+              height: 45px;
+              font-size: 17px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .headerSection {
+    height: 80px;
+    .logoLink {
+      svg {
+        height: 50px;
+      }
+    }
+
+    .headerNavigation {
+      ul {
+        height: 80px;
+
+        li {
+          margin-left: 40px;
+
+          a {
+            font-size: 16px;
+            line-height: 22px;
+          }
+
+          &:nth-last-child(2) {
+            margin-left: 25px;
+
+            a {
+              width: 130px;
+              height: 42px;
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+
+          &:last-child {
+            margin-left: 15px;
+
+            a {
+              width: 130px;
+              height: 42px;
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .headerSection {
+    height: 80px;
+    .logoLink {
+      svg {
+        height: 50px;
+      }
+    }
+
+    .headerNavigation {
+      ul {
+        height: 80px;
+
+        li {
+          margin-left: 40px;
+
+          a {
+            font-size: 16px;
+            line-height: 22px;
+          }
+
+          &:nth-last-child(2) {
+            margin-left: 25px;
+
+            a {
+              width: 130px;
+              height: 42px;
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+
+          &:last-child {
+            margin-left: 15px;
+
+            a {
+              width: 130px;
+              height: 42px;
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .headerSection {
+    height: 70px;
+    .logoLink {
+      svg {
+        height: 45px;
+      }
+    }
+
+    .headerNavigation {
+      ul {
+        height: 70px;
+
+        li {
+          margin-left: 20px;
+
+          a {
+            font-size: 14px;
+            line-height: 22px;
+          }
+
+          &:nth-last-child(2) {
+            margin-left: 15px;
+
+            a {
+              width: 100px;
+              height: 40px;
+              font-size: 14px;
+              line-height: 22px;
+            }
+          }
+
+          &:last-child {
+            margin-left: 15px;
+
+            a {
+              width: 100px;
+              height: 40px;
+              font-size: 14px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .headerSection {
+    height: 60px;
+    .logoLink {
+      svg {
+        height: 40px;
+      }
+    }
+
+    .headerNavigation {
+      position: fixed;
+      width: 330px;
+      height: calc(100vh - 0px);
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(7px);
+      top: 60px;
+      right: -300px;
+      transition: width 0.5s, opacity 0.5s;
+      z-index: 9;
+      opacity: 0;
+      overflow: auto;
+      animation: slideFromTop 0.5s forwards;
+      border: 0px;
+      border-radius: 0px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      &.active {
+        right: 0px;
+        opacity: 1;
+        animation: slideFromTop 0.5s forwards;
+        flex-direction: column;
+        justify-content: flex-start;
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          padding: 30px;
+          gap: 20px;
+          width: 100%;
+          height: 100%;
+
+          li {
+            text-align: left;
+            margin: 0px;
+            a {
+              font-size: 14px;
+              line-height: 22px;
+            }
+
+            &:nth-last-child(2) {
+              margin-left: 0px;
+
+              a {
+                background: transparent;
+                width: auto;
+                height: auto;
+                display: block;
+                font-size: 14px;
+                line-height: 22px;
+                border: 0px;
+
+                &:hover {
+                  background: transparent;
+                  border: 0px;
+                  color: #1a76ff;
+                }
+              }
+            }
+
+            &:last-child {
+              margin-left: 0px;
+
+              a {
+                background: transparent;
+                width: auto;
+                height: auto;
+                display: block;
+                font-size: 14px;
+                line-height: 22px;
+                border: 0px;
+
+                &:hover {
+                  background: transparent;
+                  border: 0px;
+                  color: #1a76ff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .headerSection {
+    height: 60px;
+    .logoLink {
+      svg {
+        height: 40px;
+      }
+    }
+
+    .headerNavigation {
+      position: fixed;
+      width: 330px;
+      height: calc(100vh - 0px);
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(7px);
+      top: 60px;
+      right: -300px;
+      transition: width 0.5s, opacity 0.5s;
+      z-index: 9;
+      opacity: 0;
+      overflow: auto;
+      animation: slideFromTop 0.5s forwards;
+      border: 0px;
+      border-radius: 0px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      &.active {
+        right: 0px;
+        opacity: 1;
+        animation: slideFromTop 0.5s forwards;
+        flex-direction: column;
+        justify-content: flex-start;
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          padding: 30px;
+          gap: 20px;
+          width: 100%;
+          height: 100%;
+
+          li {
+            text-align: left;
+            margin: 0px;
+            a {
+              font-size: 14px;
+              line-height: 22px;
+            }
+
+            &:nth-last-child(2) {
+              margin-left: 0px;
+
+              a {
+                background: transparent;
+                width: auto;
+                height: auto;
+                display: block;
+                font-size: 14px;
+                line-height: 22px;
+                border: 0px;
+
+                &:hover {
+                  background: transparent;
+                  border: 0px;
+                  color: #1a76ff;
+                }
+              }
+            }
+
+            &:last-child {
+              margin-left: 0px;
+
+              a {
+                background: transparent;
+                width: auto;
+                height: auto;
+                display: block;
+                font-size: 14px;
+                line-height: 22px;
+                border: 0px;
+
+                &:hover {
+                  background: transparent;
+                  border: 0px;
+                  color: #1a76ff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

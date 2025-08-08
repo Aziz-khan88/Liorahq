@@ -1,0 +1,443 @@
+.worksSection {
+  background: #fff;
+  .workWapper {
+    background: #f0f5f9;
+    border-radius: 40px;
+    padding: 50px;
+    .workBox {
+      background: #fff;
+      border-radius: 40px;
+      padding: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .workItem {
+        flex: 0 0 calc(50% - 20px);
+        .ctaWrapper {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+
+          &:last-child {
+            a {
+              background: transparent;
+              border-radius: 79px;
+              width: 200px;
+              height: 55px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: 1px solid #000000;
+              color: #000000;
+              transition: all 0.3s ease-in-out;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 20px;
+
+              &:hover {
+                background: #1a76ff;
+                border: 1px solid #1a76ff;
+                color: #fff;
+              }
+              &:first-child {
+                background: #1a76ff;
+                border: 1px solid #1a76ff;
+                color: #fff;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                  background: #000000;
+                  border: 1px solid #000000;
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+        .workList {
+          display: flex;
+          flex-direction: column;
+          padding-left: 80px;
+          position: relative;
+
+          &::before {
+            content: "";
+            background: rgb(54 117 255 / 25%);
+            width: 1px;
+            height: 360px;
+            position: absolute;
+            display: block;
+            left: 39.5px;
+            top: 5px;
+          }
+
+          .workPoint {
+            position: relative;
+            height: 120px;
+
+            svg {
+              position: absolute;
+              left: -50px;
+              top: 5px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 26px;
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .worksSection {
+    .workWapper {
+      border-radius: 35px;
+      padding: 40px;
+      .workBox {
+        border-radius: 35px;
+        padding: 40px;
+        .workItem {
+          flex: 0 0 calc(50% - 20px);
+          .ctaWrapper {
+            gap: 10px;
+
+            &:last-child {
+              a {
+                width: 200px;
+                height: 55px;
+                font-size: 18px;
+                line-height: 18px;
+              }
+            }
+          }
+          .workList {
+            padding-left: 70px;
+
+            &::before {
+              height: 360px;
+              left: 39.5px;
+              top: 5px;
+            }
+
+            .workPoint {
+              height: 120px;
+
+              svg {
+                left: -39px;
+                top: 5px;
+              }
+              p {
+                font-size: 15px;
+                line-height: 22px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .worksSection {
+    .workWapper {
+      border-radius: 30px;
+      padding: 35px;
+      .workBox {
+        border-radius: 30px;
+        padding: 35px;
+        .workItem {
+          flex: 0 0 calc(50% - 10px);
+          .ctaWrapper {
+            gap: 10px;
+
+            &:last-child {
+              a {
+                width: 200px;
+                height: 50px;
+                font-size: 17px;
+                line-height: 17px;
+              }
+            }
+          }
+          .workList {
+            padding-left: 60px;
+
+            &::before {
+              height: 345px;
+              left: 29.5px;
+              top: 5px;
+            }
+
+            .workPoint {
+              height: 110px;
+
+              svg {
+                left: -39px;
+                top: 5px;
+              }
+              p {
+                font-size: 15px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .worksSection {
+    .workWapper {
+      border-radius: 25px;
+      padding: 30px;
+      .workBox {
+        border-radius: 25px;
+        padding: 30px;
+        .workItem {
+          flex: 0 0 calc(50% - 10px);
+          .ctaWrapper {
+            gap: 10px;
+
+            &:last-child {
+              a {
+                width: 180px;
+                height: 50px;
+                font-size: 17px;
+                line-height: 17px;
+              }
+            }
+          }
+          .workList {
+            padding-left: 60px;
+
+            &::before {
+              height: 345px;
+              left: 29.5px;
+              top: 5px;
+            }
+
+            .workPoint {
+              height: 110px;
+
+              svg {
+                left: -39px;
+                top: 5px;
+              }
+              p {
+                font-size: 15px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .worksSection {
+    .workWapper {
+      border-radius: 20px;
+      padding: 25px;
+      .workBox {
+        border-radius: 20px;
+        padding: 25px;
+        .workItem {
+          flex: 0 0 calc(50% - 10px);
+          .ctaWrapper {
+            gap: 10px;
+
+            &:last-child {
+              a {
+                width: 170px;
+                height: 45px;
+                font-size: 16px;
+                line-height: 16px;
+              }
+            }
+          }
+          .workList {
+            padding-left: 40px;
+
+            &::before {
+              height: 310px;
+              left: 9.5px;
+              top: 5px;
+            }
+
+            .workPoint {
+              height: 100px;
+
+              svg {
+                left: -39px;
+                top: 5px;
+              }
+              p {
+                font-size: 14px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .worksSection {
+    .workWapper {
+      border-radius: 20px;
+      padding: 25px;
+      .workBox {
+        border-radius: 20px;
+        padding: 25px;
+        flex-wrap: wrap;
+        .workItem {
+          flex: 0 0 calc(100% - 10px);
+          .ctaWrapper {
+            margin-bottom: 30px;
+            gap: 10px;
+
+            &:last-child {
+              a {
+                width: 170px;
+                height: 45px;
+                font-size: 16px;
+                line-height: 16px;
+              }
+            }
+          }
+          .workList {
+            padding-left: 40px;
+
+            &::before {
+              height: 310px;
+              left: 9.5px;
+              top: 5px;
+            }
+
+            .workPoint {
+              height: 100px;
+
+              svg {
+                left: -39px;
+                top: 5px;
+              }
+              p {
+                font-size: 14px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .worksSection {
+    .workWapper {
+      border-radius: 20px;
+      padding: 25px;
+      .workBox {
+        border-radius: 20px;
+        padding: 25px;
+        flex-wrap: wrap;
+        .workItem {
+          flex: 0 0 calc(100% - 10px);
+          .ctaWrapper {
+            margin-bottom: 30px;
+            gap: 10px;
+
+            &:last-child {
+              a {
+                width: 170px;
+                height: 45px;
+                font-size: 16px;
+                line-height: 16px;
+              }
+            }
+          }
+          .workList {
+            padding-left: 40px;
+
+            &::before {
+              height: 310px;
+              left: 9.5px;
+              top: 5px;
+            }
+
+            .workPoint {
+              height: 100px;
+
+              svg {
+                left: -39px;
+                top: 5px;
+              }
+              p {
+                font-size: 14px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .worksSection {
+    .workWapper {
+      border-radius: 20px;
+      padding: 20px;
+      .workBox {
+        border-radius: 0px;
+        padding: 0px;
+        flex-wrap: wrap;
+        background: transparent;
+        .workItem {
+          flex: 0 0 calc(100% - 10px);
+          .ctaWrapper {
+            margin-bottom: 30px;
+            gap: 10px;
+
+            &:last-child {
+              a {
+                width: 140px;
+                height: 45px;
+                font-size: 14px;
+                line-height: 14px;
+              }
+            }
+          }
+          .workList {
+            padding-left: 30px;
+
+            &::before {
+              height: 450px;
+              left: 00px;
+              top: 5px;
+            }
+
+            .workPoint {
+              height: 150px;
+
+              svg {
+                left: -39px;
+                top: 5px;
+              }
+              p {
+                font-size: 14px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

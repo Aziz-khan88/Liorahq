@@ -1,0 +1,296 @@
+.trustSection {
+  background: #fff;
+  .trustWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    .trustItem {
+      margin-bottom: 20px;
+      flex: 0 0 calc(33.33% - 10px);
+      .trustBox {
+        background: #f0f5f9;
+        height: 140px;
+        padding: 20px;
+        border-radius: 30px;
+        margin-bottom: 10px;
+        h4 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 70px;
+          line-height: 70px;
+          color: #0f0f0f;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 70px;
+            letter-spacing: -2.24px;
+            color: #1a76ff;
+          }
+        }
+        .value {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: -0.6px;
+          color: #0f0f0f;
+          text-align: left;
+        }
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.72px;
+        color: #5c5c5c;
+        opacity: 0.8;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .trustSection {
+    .trustWrapper {
+      margin-top: 40px;
+      .trustItem {
+        margin-bottom: 20px;
+        flex: 0 0 calc(33.33% - 10px);
+
+        .trustBox {
+          height: 140px;
+          padding: 20px;
+          margin-bottom: 10px;
+          border-radius: 25px;
+          h4 {
+            font-size: 60px;
+            line-height: 60px;
+            span {
+              font-size: 45px;
+              line-height: 60px;
+            }
+          }
+          .value {
+            font-size: 17px;
+            line-height: 26px;
+          }
+        }
+        p {
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .trustSection {
+    .trustWrapper {
+      margin-top: 30px;
+      .trustItem {
+        margin-bottom: 20px;
+        flex: 0 0 calc(33.33% - 10px);
+
+        .trustBox {
+          height: 140px;
+          padding: 20px;
+          margin-bottom: 10px;
+          border-radius: 20px;
+          h4 {
+            font-size: 55px;
+            line-height: 55px;
+            span {
+              font-size: 45px;
+              line-height: 55px;
+            }
+          }
+          .value {
+            font-size: 16px;
+            line-height: 26px;
+          }
+        }
+        p {
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .trustSection {
+    .trustWrapper {
+      margin-top: 25px;
+      .trustItem {
+        margin-bottom: 20px;
+        flex: 0 0 calc(33.33% - 10px);
+
+        .trustBox {
+          height: 120px;
+          padding: 20px;
+          margin-bottom: 10px;
+          border-radius: 15px;
+          h4 {
+            font-size: 50px;
+            line-height: 50px;
+            span {
+              font-size: 45px;
+              line-height: 50px;
+            }
+          }
+          .value {
+            font-size: 15px;
+            line-height: 26px;
+          }
+        }
+        p {
+          font-size: 13px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .trustSection {
+    .trustWrapper {
+      margin-top: 25px;
+      .trustItem {
+        margin-bottom: 20px;
+        flex: 0 0 calc(33.33% - 10px);
+
+        .trustBox {
+          height: 120px;
+          padding: 20px;
+          margin-bottom: 10px;
+          border-radius: 15px;
+          h4 {
+            font-size: 50px;
+            line-height: 50px;
+            span {
+              font-size: 45px;
+              line-height: 50px;
+            }
+          }
+          .value {
+            font-size: 15px;
+            line-height: 26px;
+          }
+        }
+        p {
+          font-size: 13px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .trustSection {
+    .trustWrapper {
+      margin-top: 20px;
+      .trustItem {
+        margin-bottom: 20px;
+        flex: 0 0 calc(33.33% - 5px);
+
+        .trustBox {
+          height: auto;
+          padding: 20px;
+          margin-bottom: 10px;
+          border-radius: 10px;
+          h4 {
+            font-size: 45px;
+            line-height: 45px;
+            span {
+              font-size: 40px;
+              line-height: 45px;
+            }
+          }
+          .value {
+            font-size: 15px;
+            line-height: 15px;
+          }
+        }
+        p {
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .trustSection {
+    .trustWrapper {
+      margin-top: 20px;
+      .trustItem {
+        margin-bottom: 20px;
+        flex: 0 0 calc(33.33% - 5px);
+
+        .trustBox {
+          height: auto;
+          padding: 15px;
+          margin-bottom: 10px;
+          border-radius: 10px;
+          h4 {
+            font-size: 30px;
+            line-height: 30px;
+            span {
+              font-size: 25px;
+              line-height: 30px;
+            }
+          }
+          .value {
+            font-size: 14px;
+            line-height: 15px;
+          }
+        }
+        p {
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .trustSection {
+    .trustWrapper {
+      margin-top: 20px;
+      flex-wrap: wrap;
+      .trustItem {
+        margin-bottom: 15px;
+        flex: 0 0 calc(100% - 0px);
+
+        .trustBox {
+          height: auto;
+          padding: 20px;
+          margin-bottom: 10px;
+          border-radius: 10px;
+          h4 {
+            font-size: 45px;
+            line-height: 45px;
+            span {
+              font-size: 40px;
+              line-height: 45px;
+            }
+          }
+          .value {
+            font-size: 15px;
+            line-height: 15px;
+          }
+        }
+        p {
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}

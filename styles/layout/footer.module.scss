@@ -1,0 +1,569 @@
+.footerSection {
+  padding: 100px 0px 200px;
+  background: #f0f5f9;
+  position: relative;
+  overflow: hidden;
+  .rowSection {
+    border-bottom: 1px solid #bababa;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    .footerNav {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      li {
+        margin-left: 40px;
+        a {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 25px;
+          color: #000000;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            color: #1a76ff;
+          }
+        }
+      }
+    }
+    .contactLinks {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      li {
+        margin-right: 50px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: #1a76ff;
+        a {
+          display: block;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 30px;
+          color: #000000;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            color: #1a76ff;
+          }
+        }
+      }
+    }
+    .footerSocail {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      li {
+        margin-left: 20px;
+        a {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 25px;
+          color: #000000;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            svg {
+              path {
+                fill: #1a76ff !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .copyRightBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    .copyLinks {
+      ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        li {
+          margin-right: 20px;
+          a {
+            display: block;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+            color: #000000;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+              color: #1a76ff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footerLogo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 300px;
+    line-height: 300px;
+    background: linear-gradient(
+        180deg,
+        rgba(100, 116, 139, 0.4) -133.71%,
+        #f0f5f9 85.84%
+      ),
+      #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    opacity: 0.7;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+    z-index: -0;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .footerSection {
+    padding: 80px 0px 200px;
+
+    .rowSection {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      .footerNav {
+        li {
+          margin-left: 40px;
+          a {
+            font-size: 18px;
+            line-height: 18px;
+          }
+        }
+      }
+      .contactLinks {
+        li {
+          margin-right: 50px;
+          font-size: 13px;
+          line-height: 30px;
+          a {
+            font-size: 16px;
+            line-height: 30px;
+          }
+        }
+      }
+      .footerSocail {
+        li {
+          margin-left: 20px;
+          a {
+            font-size: 18px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+    .copyRightBox {
+      .copyLinks {
+        ul {
+          li {
+            margin-right: 20px;
+            a {
+              font-size: 15px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+    }
+    .footerLogo {
+      font-size: 260px;
+      line-height: 220px;
+      bottom: 0px;
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .footerSection {
+    padding: 70px 0px 180px;
+
+    .rowSection {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      .footerNav {
+        li {
+          margin-left: 40px;
+          a {
+            font-size: 16px;
+            line-height: 16px;
+          }
+        }
+      }
+      .contactLinks {
+        li {
+          margin-right: 50px;
+          font-size: 13px;
+          line-height: 30px;
+          a {
+            font-size: 16px;
+            line-height: 30px;
+          }
+        }
+      }
+      .footerSocail {
+        li {
+          margin-left: 20px;
+          a {
+            font-size: 18px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+    .copyRightBox {
+      .copyLinks {
+        ul {
+          li {
+            margin-right: 20px;
+            a {
+              font-size: 15px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+    }
+    .footerLogo {
+      font-size: 240px;
+      line-height: 220px;
+      bottom: 0px;
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .footerSection {
+    padding: 70px 0px 180px;
+
+    .rowSection {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      .footerNav {
+        li {
+          margin-left: 40px;
+          a {
+            font-size: 15px;
+            line-height: 15px;
+          }
+        }
+      }
+      .contactLinks {
+        li {
+          margin-right: 50px;
+          font-size: 13px;
+          line-height: 30px;
+          a {
+            font-size: 15px;
+            line-height: 15px;
+          }
+        }
+      }
+      .footerSocail {
+        li {
+          margin-left: 20px;
+          a {
+            svg {
+              width: auto;
+              height: 22px;
+            }
+          }
+        }
+      }
+    }
+    .copyRightBox {
+      .copyLinks {
+        ul {
+          li {
+            margin-right: 20px;
+            a {
+              font-size: 15px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+    }
+    .footerLogo {
+      font-size: 220px;
+      line-height: 180px;
+      bottom: 0px;
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .footerSection {
+    padding: 50px 0px 150px;
+
+    .rowSection {
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      .footerNav {
+        li {
+          margin-left: 30px;
+          a {
+            font-size: 15px;
+            line-height: 15px;
+          }
+        }
+      }
+      .contactLinks {
+        li {
+          margin-right: 50px;
+          font-size: 13px;
+          line-height: 30px;
+          a {
+            font-size: 15px;
+            line-height: 15px;
+          }
+        }
+      }
+      .footerSocail {
+        li {
+          margin-left: 20px;
+          a {
+            svg {
+              width: auto;
+              height: 22px;
+            }
+          }
+        }
+      }
+    }
+    .copyRightBox {
+      .copyLinks {
+        ul {
+          li {
+            margin-right: 20px;
+            a {
+              font-size: 14px;
+              line-height: 14px;
+            }
+          }
+        }
+      }
+    }
+    .footerLogo {
+      font-size: 220px;
+      line-height: 150px;
+      bottom: 0px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .footerSection {
+    padding: 50px 0px 120px;
+
+    .rowSection {
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      .footerNav {
+        li {
+          margin-left: 30px;
+          a {
+            font-size: 14px;
+            line-height: 14px;
+          }
+        }
+      }
+      .contactLinks {
+        li {
+          margin-right: 50px;
+          font-size: 13px;
+          line-height: 30px;
+          a {
+            font-size: 14px;
+            line-height: 14px;
+          }
+        }
+      }
+      .footerSocail {
+        li {
+          margin-left: 20px;
+          a {
+            svg {
+              width: auto;
+              height: 22px;
+            }
+          }
+        }
+      }
+    }
+    .copyRightBox {
+      .copyLinks {
+        ul {
+          li {
+            margin-right: 20px;
+            a {
+              font-size: 13px;
+              line-height: 13px;
+            }
+          }
+        }
+      }
+      .copyTxt {
+        font-size: 13px;
+      }
+    }
+    .footerLogo {
+      font-size: 150px;
+      line-height: 150px;
+      bottom: 0px;
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .footerSection {
+    padding: 50px 0px 80px;
+
+    .rowSection {
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      .footerNav {
+        li {
+          margin-left: 30px;
+          a {
+            font-size: 14px;
+            line-height: 14px;
+          }
+        }
+      }
+      .contactLinks {
+        flex-direction: column;
+        align-items: flex-start;
+        li {
+          margin-right: 50px;
+          font-size: 13px;
+          line-height: 30px;
+          a {
+            font-size: 14px;
+            line-height: 14px;
+          }
+        }
+      }
+      .footerSocail {
+        li {
+          margin-left: 20px;
+          a {
+            svg {
+              width: auto;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+    .copyRightBox {
+      .copyLinks {
+        ul {
+          li {
+            margin-right: 20px;
+            a {
+              font-size: 13px;
+              line-height: 13px;
+            }
+          }
+        }
+      }
+      .copyTxt {
+        font-size: 13px;
+      }
+    }
+    .footerLogo {
+      font-size: 120px;
+      line-height: 100px;
+      bottom: 0px;
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .footerSection {
+    padding: 30px 0px 50px;
+
+    .rowSection {
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      .footerNav {
+        justify-content: flex-start;
+        margin-top: 20px;
+        li {
+          margin-left: 0px;
+          margin-right: 10px;
+          a {
+            font-size: 14px;
+            line-height: 14px;
+          }
+        }
+      }
+      .contactLinks {
+        flex-direction: column;
+        align-items: flex-start;
+
+        li {
+          margin-right: 50px;
+          font-size: 13px;
+          line-height: 30px;
+          a {
+            font-size: 14px;
+            line-height: 14px;
+          }
+        }
+      }
+      .footerSocail {
+        margin-top: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        li {
+          margin-left: 0px;
+          margin-right: 20px;
+          a {
+            svg {
+              width: auto;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+    .copyRightBox {
+      flex-wrap: wrap;
+      .copyLinks {
+        flex: 0 0 100%;
+        ul {
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          li {
+            margin-right: 0px;
+            margin-bottom: 10px;
+            a {
+              font-size: 13px;
+              line-height: 13px;
+            }
+          }
+        }
+      }
+      .copyTxt {
+        font-size: 13px;
+        text-align: left;
+        flex: 0 0 100%;
+      }
+    }
+    .footerLogo {
+      font-size: 70px;
+      line-height: 50px;
+      bottom: 0px;
+    }
+  }
+}

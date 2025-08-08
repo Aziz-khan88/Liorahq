@@ -1,0 +1,345 @@
+.subscribeSection {
+  margin-top: 30px;
+  .subscribeWapper {
+    width: 80%;
+    margin: auto;
+    height: 290px;
+    border-radius: 16px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .imgClients {
+      margin-bottom: 10px;
+    }
+    h5 {
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #fff;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    .subscribeForm {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .inputField {
+        flex: 0 0 73%;
+        &:last-child {
+          flex: 0 0 25%;
+        }
+        input {
+          width: 100%;
+          height: 50px;
+          background: rgba(37, 78, 212, 0.5);
+          border: 1px solid #ffffff;
+          border-radius: 50px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #ffffff;
+          padding: 0px 15px;
+          outline: none;
+          box-shadow: none;
+          &::placeholder {
+            color: #fff;
+          }
+        }
+        button {
+          height: 50px;
+          width: 100%;
+          border: 0px;
+          background: #fff;
+          color: #000;
+          border-radius: 100px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 26px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          color: #1a76ff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .subscribeSection {
+    margin-top: 30px;
+    .subscribeWapper {
+      width: 80%;
+      height: 290px;
+      padding: 0px 100px;
+      h5 {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      .subscribeForm {
+        .inputField {
+          flex: 0 0 73%;
+          &:last-child {
+            flex: 0 0 25%;
+          }
+          input {
+            width: 100%;
+            height: 50px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          button {
+            height: 50px;
+            width: 100%;
+            font-size: 16px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .subscribeSection {
+    margin-top: 30px;
+    .subscribeWapper {
+      width: 80%;
+      height: 290px;
+      padding: 0px 100px;
+      h5 {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      .subscribeForm {
+        .inputField {
+          flex: 0 0 73%;
+          &:last-child {
+            flex: 0 0 25%;
+          }
+          input {
+            width: 100%;
+            height: 50px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          button {
+            height: 50px;
+            width: 100%;
+            font-size: 15px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .subscribeSection {
+    margin-top: 20px;
+    .subscribeWapper {
+      width: 80%;
+      height: 290px;
+      padding: 0px 80px;
+      h5 {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .subscribeForm {
+        .inputField {
+          flex: 0 0 73%;
+          &:last-child {
+            flex: 0 0 25%;
+          }
+          input {
+            width: 100%;
+            height: 50px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          button {
+            height: 50px;
+            width: 100%;
+            font-size: 15px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .subscribeSection {
+    margin-top: 20px;
+    .subscribeWapper {
+      width: 95%;
+      height: 290px;
+      padding: 0px 80px;
+      h5 {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .subscribeForm {
+        .inputField {
+          flex: 0 0 73%;
+          &:last-child {
+            flex: 0 0 25%;
+          }
+          input {
+            width: 100%;
+            height: 50px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          button {
+            height: 50px;
+            width: 100%;
+            font-size: 15px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .subscribeSection {
+    margin-top: 20px;
+    .subscribeWapper {
+      width: 100%;
+      height: 290px;
+      padding: 0px 30px;
+      h5 {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .subscribeForm {
+        .inputField {
+          flex: 0 0 73%;
+          &:last-child {
+            flex: 0 0 25%;
+          }
+          input {
+            width: 100%;
+            height: 50px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          button {
+            height: 50px;
+            width: 100%;
+            font-size: 15px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .subscribeSection {
+    margin-top: 20px;
+    .subscribeWapper {
+      width: 100%;
+      height: 290px;
+      padding: 0px 30px;
+      h5 {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .subscribeForm {
+        .inputField {
+          flex: 0 0 73%;
+          &:last-child {
+            flex: 0 0 25%;
+          }
+          input {
+            width: 100%;
+            height: 50px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          button {
+            height: 50px;
+            width: 100%;
+            font-size: 15px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .subscribeSection {
+    margin-top: 20px;
+    .subscribeWapper {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      h5 {
+        margin-bottom: 0px;
+      }
+      p {
+        font-size: 13px;
+        line-height: 20px;
+      }
+      .subscribeForm {
+        flex-wrap: wrap;
+        .inputField {
+          flex: 0 0 100%;
+          &:last-child {
+            flex: 0 0 100%;
+          }
+          input {
+            width: 100%;
+            height: 50px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0px 15px;
+            margin-bottom: 10px;
+          }
+          button {
+            height: 50px;
+            width: 100%;
+            font-size: 15px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}
