@@ -1,0 +1,43 @@
+.availableCourses {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+
+  .availableHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    .tit {
+      h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -0.165px;
+        color: #000000;
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .embla {
+    .embla__viewport {
+      overflow: hidden;
+      .embla__container {
+        backface-visibility: hidden;
+        display: flex;
+        touch-action: pan-y pinch-zoom;
+        margin-left: calc(10px * -1);
+        .embla__slide {
+          min-width: 0;
+          flex: 0 0 calc(100% / 3);
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}

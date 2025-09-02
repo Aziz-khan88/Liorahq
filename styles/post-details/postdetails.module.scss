@@ -1,0 +1,20 @@
+.postdetailsPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  .postdetailsContent {
+    flex: 0 0 60%;
+  }
+  .postdetailsSide {
+    flex: 0 0 calc(40% - 20px);
+    background: #ffffff;
+    border: 1px solid #dedede;
+    border-radius: 12px;
+    padding: 25px;
+    height: 75vh;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+}

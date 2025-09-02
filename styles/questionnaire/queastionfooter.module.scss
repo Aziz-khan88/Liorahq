@@ -1,0 +1,30 @@
+.footerQuestion {
+  background: rgb(26, 118, 255, 0.05);
+  height: 100px;
+  border-top: 1px solid rgb(115, 133, 143, 0.22);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    li {
+      a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #000000;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          color: #1a76ff;
+        }
+      }
+    }
+  }
+}

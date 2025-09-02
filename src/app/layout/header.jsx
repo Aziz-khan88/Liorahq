@@ -64,8 +64,8 @@ const Header = () => {
                                 <li><Link href="#" onClick={handleClick}>About</Link></li>
                                 <li><Link href="#" onClick={handleClick}>Pricing</Link></li>
                                 <li><Link href="#" onClick={handleClick}>Contact Us</Link></li>
-                                <li><Link href="#" onClick={handleClick}>Login</Link></li>
-                                <li><Link href="#" onClick={handleClick}>Register</Link></li>
+                                <li><Link href="/sign-in" onClick={handleClick}>Login</Link></li>
+                                <li><Link href="/sign-up" onClick={handleClick}>Register</Link></li>
                             </ul>
                         </div>
                     </Col>

@@ -1,0 +1,338 @@
+.questionWrapper {
+  background: rgb(26, 118, 255, 0.05);
+  height: calc(100vh - 200px);
+  padding: 120px 0px;
+  .questionContainer {
+    max-width: 60%;
+    margin: auto;
+    .questionHeader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+      .questionTitle {
+        flex: 0 0 70%;
+        h1 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 50px;
+          line-height: 60px;
+          color: #000000;
+          margin-bottom: 10px;
+        }
+        p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 25px;
+          letter-spacing: -0.165px;
+          color: #73858f;
+        }
+      }
+      .questionBtn {
+        flex: 0 0 30%;
+        text-align: right;
+        .skipBtn {
+          width: 68px;
+          height: 68px;
+          background: #1a76ff;
+          border-radius: 100%;
+          border: 0px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 16px;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+    }
+    .questionBar {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 30px;
+      div {
+        width: 50px;
+        height: 5px;
+        background: rgba(26, 118, 255, 0.2);
+        border-radius: 124px;
+        &.active {
+          background: #1a76ff;
+        }
+      }
+    }
+    .questionBox {
+      h4 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        color: #000000;
+      }
+      .inputRadio {
+        width: 100%;
+        height: 70px;
+        background: #ffffff;
+        border: 1px solid #e0e5f2;
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.4);
+        outline: none;
+        position: relative;
+        margin-bottom: 10px;
+        overflow: hidden;
+        input {
+          opacity: 0;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+          cursor: pointer;
+          z-index: 2;
+        }
+        label {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 20px;
+          color: #798aa4;
+          z-index: 1;
+          position: relative;
+          width: 100%;
+          pointer-events: none;
+          padding: 0px 20px;
+          &::after {
+            content: "";
+            border: 2px solid #798aa4;
+            width: 24px;
+            height: 24px;
+            border-radius: 100%;
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+          &::before {
+            content: "";
+            background: #fff;
+            width: 16px;
+            height: 16px;
+            border-radius: 100%;
+            position: absolute;
+            right: 24px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+        input:checked + label {
+          color: #fff;
+
+          &::after {
+            border: 2px solid #fff;
+          }
+
+          &::before {
+            background: #fff;
+          }
+        }
+        input:checked ~ label::before {
+          background: #fff;
+        }
+        input:checked ~ label::after {
+          border-color: #fff;
+        }
+
+        input:checked ~ label {
+          color: #fff;
+        }
+
+        input:checked ~ .inputRadio {
+          background: #1a76ff;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+      input:checked + label {
+        background: #1a76ff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .btnNext {
+        button {
+          width: 100%;
+          height: 70px;
+          background: #1a76ff;
+          border-radius: 10px;
+          font-style: normal;
+          font-weight: 00;
+          font-size: 22px;
+          line-height: 22px;
+          text-align: center;
+          color: #ffffff;
+          border: 0px;
+          margin-top: 40px;
+        }
+      }
+    }
+    .pricingContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .pricingItem {
+        flex: 0 0 calc(100% / 3 - 10px);
+        padding: 40px 30px;
+        background: #ffffff;
+        border-radius: 16px;
+        border: 1px solid #e7e7e8;
+        height: 490px;
+        transition: all 0.4s ease;
+        cursor: pointer;
+
+        .name,
+        .price,
+        ul li,
+        button {
+          transition: all 0.4s ease;
+        }
+
+        .name {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 34px;
+          color: #01081b;
+          margin-bottom: 20px;
+
+          span {
+            display: block;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            color: #4d525f;
+          }
+        }
+
+        .price {
+          font-weight: 600;
+          font-size: 50px;
+          line-height: 60px;
+          color: #01081b;
+          margin-bottom: 20px;
+          padding-bottom: 20px;
+          border-bottom: 1px solid rgba(245, 245, 245, 1);
+
+          span {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            color: #4d525f;
+          }
+        }
+
+        ul {
+          margin-bottom: 20px;
+          height: 150px;
+          overflow: auto;
+
+          &::-webkit-scrollbar {
+            width: 0px;
+          }
+
+          li {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            color: #000000;
+            margin-bottom: 10px;
+
+            svg {
+              margin-right: 10px;
+              width: 22px;
+              height: auto;
+              transition: all 0.3s ease;
+            }
+          }
+        }
+
+        button {
+          height: 56px;
+          width: 100%;
+          border-radius: 10px;
+          border: 1px solid #01081b;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #01081b;
+          background: transparent;
+          transition: all 0.4s ease;
+        }
+
+        &:nth-child(2) {
+          background: #1a76ff;
+          .name,
+          .price {
+            color: #fff;
+            span {
+              color: #fff;
+            }
+          }
+          ul li {
+            color: #fff;
+            svg path {
+              fill: #1a76ff;
+            }
+          }
+          button {
+            border: 1px solid #fff;
+            color: #1a76ff;
+            background: #fff;
+          }
+        }
+
+        &:hover {
+          background: #1a76ff;
+          transform: translateY(-10px);
+          box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.15);
+
+          .name,
+          .price {
+            color: #fff;
+            span {
+              color: #fff;
+            }
+          }
+
+          ul li {
+            color: #fff;
+            svg path {
+              fill: #1a76ff;
+            }
+          }
+
+          button {
+            border: 1px solid #fff;
+            color: #1a76ff;
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+}

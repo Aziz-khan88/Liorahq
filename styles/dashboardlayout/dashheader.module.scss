@@ -1,0 +1,209 @@
+.dashHeader {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background: #ffffff;
+  border-bottom: 1px solid rgb(121, 138, 164, 0.25);
+
+  .profileMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    .profileNotification {
+      position: relative;
+      cursor: pointer;
+
+      .dropDownMenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: white;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 8px;
+        z-index: 10;
+      }
+
+      &.active {
+        .dropDownMenu {
+          display: block;
+          width: 380px;
+          border-radius: 10px;
+          padding: 0px;
+          border: 1px solid #d7dce4;
+          .headerNotification {
+            background: rgba(101, 101, 101, 0.12);
+            backdrop-filter: blur(5px);
+            height: 60px;
+            width: 100%;
+            border-radius: 10px 10px 0px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 15px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: #000000;
+            .switchBox {
+              input {
+                height: 25px;
+                width: 45px;
+                outline: none;
+                box-shadow: none;
+              }
+            }
+          }
+          ul {
+            max-height: 300px;
+            overflow: auto;
+            padding: 10px 0px;
+            &::-webkit-scrollbar {
+              width: 5px;
+            }
+
+            &::-webkit-scrollbar-track {
+              box-shadow: inset 0 0 0px transparent;
+            }
+
+            &::-webkit-scrollbar-thumb {
+              background-color: rgba(148, 155, 171, 0.75);
+              border-radius: 5px;
+              outline: 0px;
+            }
+            li {
+              height: auto;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              border-bottom: 1px solid rgba(121, 138, 164, 0.3);
+              max-width: 90%;
+              margin: auto;
+              padding: 10px 0px;
+              &:last-child {
+                border-bottom: 0px;
+              }
+              .notifyImg {
+                height: 56px;
+                flex: 0 0 56px;
+                position: relative;
+                margin-right: 20px;
+                img {
+                  object-fit: cover;
+                  border-radius: 100%;
+                }
+              }
+              .notifyUser {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                color: #000000;
+
+                span {
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 16px;
+                  color: #798aa4;
+                }
+                .notifyDate {
+                  margin-top: 3px;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 10px;
+                  line-height: 10px;
+                  color: #798aa4;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .profilelinks {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      cursor: pointer;
+      .profileImage {
+        height: 56px;
+        width: 56px;
+        position: relative;
+
+        img {
+          object-fit: cover;
+          border-radius: 100%;
+        }
+      }
+      .dropDownProfile {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: white;
+        border: 1px solid #ddd;
+        padding: 0px 10px;
+        border-radius: 8px;
+        z-index: 10;
+      }
+      &.active {
+        .dropDownProfile {
+          display: block;
+          background: #ffffff;
+          border: 1px solid #d7dce4;
+          box-shadow: 15px 15px 38px rgba(0, 0, 0, 0.15);
+          backdrop-filter: blur(5px);
+          border-radius: 10px;
+          width: 215px;
+          .toggleProfile {
+            li {
+              border-bottom: 1px solid #d7dce4;
+              &:last-child {
+                border-bottom: 0px;
+              }
+              a {
+                height: 60px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 16px;
+                display: flex;
+                align-items: center;
+                letter-spacing: -0.165px;
+                color: #798aa4;
+                padding: 0px 20px;
+                svg {
+                  margin-right: 15px;
+                  path {
+                    fill: #798aa4;
+                    transition: all 0.3s ease-in-out;
+                  }
+                }
+                &:hover {
+                  color: #000;
+                  transition: all 0.3s ease-in-out;
+                  svg {
+                    path {
+                      fill: #1a76ff;
+                      transition: all 0.3s ease-in-out;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

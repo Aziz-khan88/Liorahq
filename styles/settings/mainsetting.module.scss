@@ -1,0 +1,47 @@
+.mainSetting {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  ul {
+    li {
+      background: #ffffff;
+      border: 1px solid rgba(217, 217, 217, 0.45);
+      border-radius: 10px;
+      height: 64px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 20px;
+      align-items: center;
+      margin-bottom: 15px;
+      a {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 14px;
+        letter-spacing: -0.5px;
+        color: #000000;
+      }
+      span {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 14px;
+        letter-spacing: 3.5px;
+        color: #1a76ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+          margin-left: 10px;
+          transform: rotate(-90deg);
+          path {
+            fill: #1a76ff;
+          }
+        }
+      }
+    }
+  }
+}

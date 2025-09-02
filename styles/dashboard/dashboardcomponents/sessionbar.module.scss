@@ -1,0 +1,65 @@
+.sessionBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a76ff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+  .sessionImg {
+    height: 80px;
+    flex: 0 0 80px;
+    position: relative;
+    img {
+      object-fit: cover;
+      border-radius: 100%;
+    }
+  }
+  .sessionContent {
+    flex: 0 0 65%;
+    h4 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: -0.165px;
+      color: #ffffff;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: -0.165px;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 0px;
+    }
+  }
+  .sessionButton {
+    flex: 0 0 calc(220px - 20px);
+    button {
+      border-radius: 10px;
+      width: 100%;
+      height: 50px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: -0.165px;
+      color: #1a76ff;
+      border: 0px;
+      justify-content: center;
+      transition: all 0.3s ease-in-out;
+      border: 1px solid #fff;
+      background: #fff;
+      &:hover {
+        color: #fff;
+        background: transparent;
+      }
+    }
+  }
+}

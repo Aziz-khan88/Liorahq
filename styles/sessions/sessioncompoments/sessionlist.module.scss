@@ -1,0 +1,91 @@
+.sessionList {
+  .sessionTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.165px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .sessionWarrper {
+    .sessionListing {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #dedede;
+      border-radius: 12px;
+      padding: 20px 25px;
+      margin-bottom: 20px;
+      background: #fff;
+      .Image {
+        flex: 0 0 80px;
+        height: 80px;
+        background: rgba(26, 118, 255, 0.12);
+        position: relative;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .Content {
+        flex: 0 0 calc(100% - 250px);
+        h4 {
+          margin-bottom: 0px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 30px;
+          letter-spacing: -0.165px;
+          color: #000000;
+          a {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: -0.165px;
+            color: #000000;
+          }
+        }
+        p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+          letter-spacing: -0.165px;
+          color: rgba(0, 0, 0, 0.6);
+          margin-bottom: 0px;
+        }
+      }
+      .buttonSec {
+        flex: 0 0 120px;
+        a {
+          border-radius: 10px;
+          width: 120px;
+          height: 45px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 14px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: -0.165px;
+          color: #1a76ff;
+          border: 0px;
+          justify-content: center;
+          transition: all 0.3s ease-in-out;
+          border: 1px solid #1a76ff;
+          background: #fff;
+          &:hover {
+            background: #1a76ff;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

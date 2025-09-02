@@ -1,0 +1,102 @@
+.faqsPage {
+  .faqsContent {
+    background: #ffffff;
+    border: 1px solid #dedede;
+    border-radius: 12px;
+    padding: 50px 25px;
+
+    .faqsContainer {
+      max-width: 80%;
+      margin: auto;
+      .faqsBox {
+        height: 70px;
+        overflow: hidden;
+        transition: height 0.4s ease, opacity 0.4s ease;
+        border: 1px solid rgb(217, 217, 217, 0.45);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        .faqsTitle {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 25px;
+          height: 70px;
+          color: #000000;
+          cursor: pointer;
+          position: relative;
+          padding: 0px 50px 0px 20px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+          .iconBox {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translate(0, -50%);
+            width: 30px;
+            height: 30px;
+
+            border-radius: 64px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #1a76ff;
+            svg {
+              height: 16px;
+              width: 16px;
+              transition: all 0.5s ease;
+
+              path {
+                fill: #fff;
+              }
+            }
+          }
+        }
+
+        .faqscontent {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 32px;
+          letter-spacing: -0.165px;
+          opacity: 0;
+          max-height: 0;
+          transition: max-height 0.4s ease, opacity 0.4s ease;
+
+          ul {
+            list-style: inside;
+          }
+
+          p,
+          li {
+            color: #73858f;
+          }
+        }
+
+        &.active {
+          opacity: 1;
+          height: auto;
+          padding-bottom: 20px;
+
+          .faqscontent {
+            opacity: 1;
+            max-height: 500px;
+            padding: 20px 50px 20px 20px;
+          }
+
+          .iconBox {
+            background: #eeeeee;
+            svg {
+              transform: rotate(45deg);
+              transition: all 0.5s ease;
+              path {
+                fill: #1a76ff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.dashboardMain {
+  padding: 25px;
+  background: #eff1f4;
+  height: calc(100vh - 100px);
+  overflow: auto;
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}

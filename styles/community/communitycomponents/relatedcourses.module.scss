@@ -1,0 +1,81 @@
+.relatedcourses {
+  width: 100%;
+  margin-bottom: 20px;
+  h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.165px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .coursesSection {
+    margin-bottom: 20px;
+    .coursesImg {
+      position: relative;
+      height: 170px;
+      margin-bottom: 15px;
+      img {
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    }
+    .coursesTxt {
+      h3 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.165px;
+        color: #000000;
+        margin-bottom: 5px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: -0.165px;
+        color: #798aa4;
+        margin-bottom: 10px;
+      }
+    }
+    .coursesAction {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .coursesPrice {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.151627px;
+        color: #000000;
+      }
+    }
+    a {
+      border-radius: 10px;
+      width: 120px;
+      height: 45px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: -0.165px;
+      color: #1a76ff;
+      border: 0px;
+      justify-content: center;
+      transition: all 0.3s ease-in-out;
+      border: 1px solid #1a76ff;
+      background: #fff;
+      &:hover {
+        background: #1a76ff;
+        color: #fff;
+      }
+    }
+  }
+}
