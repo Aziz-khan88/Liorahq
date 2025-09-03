@@ -1,10 +1,10 @@
 
 
-import SignUpForm from "@/src/app/authcomponents/signuppform";
+import ForgotPassword from "@/src/app/authcomponents/forgot-password";
 
 const Page = () => {
     return (
-        <SignUpForm />
+        <ForgotPassword />
     );
 };
 

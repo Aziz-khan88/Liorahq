@@ -12,12 +12,12 @@ const AuthLayout = ({ children }) => {
         <section className={styles.mainLayout}>
             <Container className="h-100" fluid>
                 <Row className="h-100">
-                    <Col md={7} className="my-auto p-0">
+                    <Col md={6} lg={7} className=" d-md-block d-none my-auto p-0">
                         <div className={styles.loginImage}>
                             <Image src={IMG.src} alt="Liora HQ Login" fill />
                         </div>
                     </Col>
-                    <Col md={4} className="my-auto">
+                    <Col md={6} lg={5} className="my-auto">
                         <div className={styles.loginSection}>
                             <Link href="/" className={styles.mainLogo}>
                                 <MainLogo />

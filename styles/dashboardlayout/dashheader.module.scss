@@ -6,7 +6,12 @@
   padding: 0px 20px;
   background: #ffffff;
   border-bottom: 1px solid rgb(121, 138, 164, 0.25);
-
+  .logoMain {
+    svg {
+      height: 45px;
+      width: auto;
+    }
+  }
   .profileMenu {
     display: flex;
     justify-content: center;
@@ -145,6 +150,14 @@
           border-radius: 100%;
         }
       }
+
+      .ArrowIcon {
+        svg {
+          width: auto;
+          height: 10px;
+        }
+      }
+
       .dropDownProfile {
         display: none;
         position: absolute;
@@ -197,6 +210,750 @@
                       fill: #1a76ff;
                       transition: all 0.3s ease-in-out;
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .dashHeader {
+    height: 70px;
+    padding: 0px 20px;
+    .logoMain {
+      svg {
+        height: 35px;
+        width: auto;
+      }
+    }
+    .profileMenu {
+      gap: 30px;
+      .profileNotification {
+        .dropDownMenu {
+          padding: 10px;
+        }
+
+        &.active {
+          .dropDownMenu {
+            width: 380px;
+            .headerNotification {
+              height: 55px;
+              padding: 0px 15px;
+              font-size: 17px;
+              line-height: 17px;
+              .switchBox {
+                input {
+                  height: 22px;
+                  width: 40px;
+                }
+              }
+            }
+            ul {
+              max-height: 300px;
+              overflow: auto;
+              padding: 10px 0px;
+              &::-webkit-scrollbar {
+                width: 4px;
+              }
+
+              li {
+                max-width: 90%;
+                margin: auto;
+                padding: 10px 0px;
+                .notifyImg {
+                  height: 50px;
+                  flex: 0 0 50px;
+                  position: relative;
+                  margin-right: 15px;
+                }
+                .notifyUser {
+                  font-size: 13px;
+                  line-height: 20px;
+
+                  span {
+                    font-size: 12px;
+                    line-height: 16px;
+                  }
+                  .notifyDate {
+                    font-size: 9px;
+                    line-height: 9px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .profilelinks {
+        gap: 10px;
+        .profileImage {
+          height: 50px;
+          width: 50px;
+        }
+        .ArrowIcon {
+          svg {
+            width: auto;
+            height: 9px;
+          }
+        }
+        &.active {
+          .dropDownProfile {
+            width: 200px;
+            .toggleProfile {
+              li {
+                a {
+                  height: 50px;
+                  font-size: 15px;
+                  line-height: 15px;
+                  padding: 0px 15px;
+                  svg {
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .dashHeader {
+    height: 65px;
+    padding: 0px 20px;
+    .logoMain {
+      svg {
+        height: 35px;
+        width: auto;
+      }
+    }
+    .profileMenu {
+      gap: 30px;
+      .profileNotification {
+        .dropDownMenu {
+          padding: 10px;
+        }
+
+        &.active {
+          .dropDownMenu {
+            width: 380px;
+            .headerNotification {
+              height: 55px;
+              padding: 0px 15px;
+              font-size: 17px;
+              line-height: 17px;
+              .switchBox {
+                input {
+                  height: 22px;
+                  width: 40px;
+                }
+              }
+            }
+            ul {
+              max-height: 300px;
+              overflow: auto;
+              padding: 10px 0px;
+              &::-webkit-scrollbar {
+                width: 4px;
+              }
+
+              li {
+                max-width: 90%;
+                margin: auto;
+                padding: 10px 0px;
+                .notifyImg {
+                  height: 50px;
+                  flex: 0 0 50px;
+                  position: relative;
+                  margin-right: 15px;
+                }
+                .notifyUser {
+                  font-size: 13px;
+                  line-height: 20px;
+
+                  span {
+                    font-size: 12px;
+                    line-height: 16px;
+                  }
+                  .notifyDate {
+                    font-size: 9px;
+                    line-height: 9px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .profilelinks {
+        gap: 10px;
+        .profileImage {
+          height: 45px;
+          width: 45px;
+        }
+        .ArrowIcon {
+          svg {
+            width: auto;
+            height: 8px;
+          }
+        }
+        &.active {
+          .dropDownProfile {
+            width: 180px;
+            .toggleProfile {
+              li {
+                a {
+                  height: 45px;
+                  font-size: 14px;
+                  line-height: 14px;
+                  padding: 0px 10px;
+                  svg {
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .dashHeader {
+    height: 65px;
+    padding: 0px 20px;
+    .logoMain {
+      svg {
+        height: 35px;
+        width: auto;
+      }
+    }
+    .profileMenu {
+      gap: 30px;
+      .profileNotification {
+        .dropDownMenu {
+          padding: 10px;
+        }
+
+        &.active {
+          .dropDownMenu {
+            width: 380px;
+            .headerNotification {
+              height: 55px;
+              padding: 0px 15px;
+              font-size: 17px;
+              line-height: 17px;
+              .switchBox {
+                input {
+                  height: 22px;
+                  width: 40px;
+                }
+              }
+            }
+            ul {
+              max-height: 300px;
+              overflow: auto;
+              padding: 10px 0px;
+              &::-webkit-scrollbar {
+                width: 4px;
+              }
+
+              li {
+                max-width: 90%;
+                margin: auto;
+                padding: 10px 0px;
+                .notifyImg {
+                  height: 50px;
+                  flex: 0 0 50px;
+                  position: relative;
+                  margin-right: 15px;
+                }
+                .notifyUser {
+                  font-size: 13px;
+                  line-height: 20px;
+
+                  span {
+                    font-size: 12px;
+                    line-height: 16px;
+                  }
+                  .notifyDate {
+                    font-size: 9px;
+                    line-height: 9px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .profilelinks {
+        gap: 10px;
+        .profileImage {
+          height: 45px;
+          width: 45px;
+        }
+        .ArrowIcon {
+          svg {
+            width: auto;
+            height: 8px;
+          }
+        }
+        &.active {
+          .dropDownProfile {
+            width: 180px;
+            .toggleProfile {
+              li {
+                a {
+                  height: 45px;
+                  font-size: 14px;
+                  line-height: 14px;
+                  padding: 0px 10px;
+                  svg {
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .dashHeader {
+    height: 60px;
+    padding: 0px 20px;
+    .logoMain {
+      svg {
+        height: 35px;
+        width: auto;
+      }
+    }
+    .profileMenu {
+      gap: 25px;
+      .profileNotification {
+        svg {
+          width: auto;
+          height: 30px;
+        }
+        .dropDownMenu {
+          padding: 10px;
+        }
+
+        &.active {
+          .dropDownMenu {
+            width: 380px;
+            .headerNotification {
+              height: 55px;
+              padding: 0px 15px;
+              font-size: 17px;
+              line-height: 17px;
+              .switchBox {
+                input {
+                  height: 22px;
+                  width: 40px;
+                }
+              }
+            }
+            ul {
+              max-height: 300px;
+              overflow: auto;
+              padding: 10px 0px;
+              &::-webkit-scrollbar {
+                width: 4px;
+              }
+
+              li {
+                max-width: 90%;
+                margin: auto;
+                padding: 10px 0px;
+                .notifyImg {
+                  height: 50px;
+                  flex: 0 0 50px;
+                  position: relative;
+                  margin-right: 15px;
+                }
+                .notifyUser {
+                  font-size: 13px;
+                  line-height: 20px;
+
+                  span {
+                    font-size: 12px;
+                    line-height: 16px;
+                  }
+                  .notifyDate {
+                    font-size: 9px;
+                    line-height: 9px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .profilelinks {
+        gap: 10px;
+        .profileImage {
+          height: 45px;
+          width: 45px;
+        }
+        .ArrowIcon {
+          svg {
+            width: auto;
+            height: 7px;
+          }
+        }
+        &.active {
+          .dropDownProfile {
+            width: 180px;
+            .toggleProfile {
+              li {
+                a {
+                  height: 45px;
+                  font-size: 14px;
+                  line-height: 14px;
+                  padding: 0px 10px;
+                  svg {
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .dashHeader {
+    height: 60px;
+    padding: 0px 20px;
+    .logoMain {
+      svg {
+        height: 35px;
+        width: auto;
+      }
+    }
+    .profileMenu {
+      gap: 25px;
+      .profileNotification {
+        svg {
+          width: auto;
+          height: 30px;
+        }
+        .dropDownMenu {
+          padding: 10px;
+        }
+
+        &.active {
+          .dropDownMenu {
+            width: 380px;
+            .headerNotification {
+              height: 55px;
+              padding: 0px 15px;
+              font-size: 17px;
+              line-height: 17px;
+              .switchBox {
+                input {
+                  height: 22px;
+                  width: 40px;
+                }
+              }
+            }
+            ul {
+              max-height: 300px;
+              overflow: auto;
+              padding: 10px 0px;
+              &::-webkit-scrollbar {
+                width: 4px;
+              }
+
+              li {
+                max-width: 90%;
+                margin: auto;
+                padding: 10px 0px;
+                .notifyImg {
+                  height: 50px;
+                  flex: 0 0 50px;
+                  position: relative;
+                  margin-right: 15px;
+                }
+                .notifyUser {
+                  font-size: 13px;
+                  line-height: 20px;
+
+                  span {
+                    font-size: 12px;
+                    line-height: 16px;
+                  }
+                  .notifyDate {
+                    font-size: 9px;
+                    line-height: 9px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .profilelinks {
+        gap: 10px;
+        .profileImage {
+          height: 45px;
+          width: 45px;
+        }
+        .ArrowIcon {
+          svg {
+            width: auto;
+            height: 7px;
+          }
+        }
+        &.active {
+          .dropDownProfile {
+            width: 180px;
+            .toggleProfile {
+              li {
+                a {
+                  height: 45px;
+                  font-size: 14px;
+                  line-height: 14px;
+                  padding: 0px 10px;
+                  svg {
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .dashHeader {
+    height: 60px;
+    padding: 0px 20px;
+    .logoMain {
+      svg {
+        height: 35px;
+        width: auto;
+      }
+    }
+    .profileMenu {
+      gap: 15px;
+      .profileNotification {
+        svg {
+          width: auto;
+          height: 25px;
+        }
+        .dropDownMenu {
+          padding: 10px;
+        }
+
+        &.active {
+          .dropDownMenu {
+            width: 380px;
+            .headerNotification {
+              height: 55px;
+              padding: 0px 15px;
+              font-size: 17px;
+              line-height: 17px;
+              .switchBox {
+                input {
+                  height: 22px;
+                  width: 40px;
+                }
+              }
+            }
+            ul {
+              max-height: 300px;
+              overflow: auto;
+              padding: 10px 0px;
+              &::-webkit-scrollbar {
+                width: 4px;
+              }
+
+              li {
+                max-width: 90%;
+                margin: auto;
+                padding: 10px 0px;
+                .notifyImg {
+                  height: 50px;
+                  flex: 0 0 50px;
+                  position: relative;
+                  margin-right: 15px;
+                }
+                .notifyUser {
+                  font-size: 13px;
+                  line-height: 20px;
+
+                  span {
+                    font-size: 12px;
+                    line-height: 16px;
+                  }
+                  .notifyDate {
+                    font-size: 9px;
+                    line-height: 9px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .profilelinks {
+        gap: 10px;
+        .profileImage {
+          height: 40px;
+          width: 40px;
+        }
+        .ArrowIcon {
+          svg {
+            width: auto;
+            height: 6px;
+          }
+        }
+        &.active {
+          .dropDownProfile {
+            width: 180px;
+            .toggleProfile {
+              li {
+                a {
+                  height: 45px;
+                  font-size: 14px;
+                  line-height: 14px;
+                  padding: 0px 10px;
+                  svg {
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .dashHeader {
+    height: 60px;
+    padding: 0px 0px;
+    .logoMain {
+      svg {
+        height: 30px;
+        width: auto;
+      }
+    }
+    .profileMenu {
+      gap: 10px;
+      .profileNotification {
+        svg {
+          width: auto;
+          height: 22px;
+        }
+        .dropDownMenu {
+          padding: 10px;
+        }
+
+        &.active {
+          .dropDownMenu {
+            width: 300px;
+            right: -50px;
+            top: 30px;
+            .headerNotification {
+              height: 50px;
+              padding: 0px 10px;
+              font-size: 15px;
+              line-height: 15px;
+              .switchBox {
+                input {
+                  height: 20px;
+                  width: 35px;
+                }
+              }
+            }
+            ul {
+              max-height: 300px;
+              overflow: auto;
+              padding: 10px 0px;
+              &::-webkit-scrollbar {
+                width: 4px;
+              }
+
+              li {
+                max-width: 90%;
+                margin: auto;
+                padding: 10px 0px;
+                .notifyImg {
+                  height: 40px;
+                  flex: 0 0 40px;
+                  position: relative;
+                  margin-right: 10px;
+                }
+                .notifyUser {
+                  font-size: 13px;
+                  line-height: 18px;
+
+                  span {
+                    font-size: 11px;
+                    line-height: 14px;
+                  }
+                  .notifyDate {
+                    font-size: 9px;
+                    line-height: 9px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .profilelinks {
+        gap: 5px;
+        .profileImage {
+          height: 30px;
+          width: 30px;
+        }
+        .ArrowIcon {
+          svg {
+            width: auto;
+            height: 6px;
+          }
+        }
+
+        &.active {
+          .dropDownProfile {
+            width: 160px;
+            .toggleProfile {
+              li {
+                a {
+                  height: 40px;
+                  font-size: 13px;
+                  line-height: 14px;
+                  padding: 0px 10px;
+
+                  svg {
+                    margin-right: 10px;
+                    width: auto;
+                    height: 18px;
                   }
                 }
               }

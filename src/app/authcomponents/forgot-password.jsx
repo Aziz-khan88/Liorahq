@@ -6,7 +6,7 @@ const ForgotPassword = () => {
             <h3>Forgot Password?</h3>
             <p>Enter your email to reset your password</p>
 
-            <form action="" className={styles.loginForm}>
+            <form action="/opt-verification" className={styles.loginForm}>
                 <div className={styles.inputBox}>
                     <input type="email" name="email" placeholder="Email" required />
                 </div>

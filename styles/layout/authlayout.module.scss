@@ -38,3 +38,146 @@
     }
   }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .mainLayout {
+    max-width: calc(100% - 40px);
+    margin: 20px auto;
+    height: calc(100vh - 40px);
+    padding: 25px;
+
+    .loginImage {
+      height: calc(100vh - 100px);
+    }
+    .loginSection {
+      padding: 0px 40px;
+      .mainLogo {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .mainLayout {
+    max-width: calc(100% - 40px);
+    margin: 20px auto;
+    height: calc(100vh - 40px);
+    padding: 20px;
+
+    .loginImage {
+      height: calc(100vh - 100px);
+    }
+    .loginSection {
+      padding: 0px 20px;
+      .mainLogo {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .mainLayout {
+    max-width: calc(100% - 40px);
+    margin: 20px auto;
+    height: calc(100vh - 40px);
+    padding: 20px;
+
+    .loginImage {
+      height: calc(100vh - 100px);
+    }
+    .loginSection {
+      padding: 0px 20px;
+      .mainLogo {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .mainLayout {
+    max-width: calc(100% - 40px);
+    margin: 15px auto;
+    height: calc(100vh - 40px);
+    padding: 15px;
+
+    .loginImage {
+      height: calc(100vh - 100px);
+    }
+    .loginSection {
+      padding: 0px 15px;
+      .mainLogo {
+        margin-bottom: 15px;
+        svg {
+          width: auto;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .mainLayout {
+    max-width: calc(100% - 40px);
+    margin: 15px auto;
+    height: calc(100vh - 40px);
+    padding: 15px;
+
+    .loginImage {
+      height: calc(100vh - 100px);
+    }
+    .loginSection {
+      padding: 0px 15px;
+      .mainLogo {
+        margin-bottom: 15px;
+        svg {
+          width: auto;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .mainLayout {
+    max-width: calc(100% - 40px);
+    margin: 15px auto;
+    height: calc(100vh - 40px);
+    padding: 15px;
+
+    .loginImage {
+      height: calc(100vh - 100px);
+    }
+    .loginSection {
+      padding: 0px 15px;
+      .mainLogo {
+        margin-bottom: 15px;
+        svg {
+          width: auto;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .mainLayout {
+    max-width: calc(100% - 30px);
+    margin: 15px auto;
+    height: calc(100vh - 30px);
+    padding: 15px;
+
+    .loginImage {
+      height: calc(100vh - 100px);
+    }
+    .loginSection {
+      padding: 0px 0px;
+      .mainLogo {
+        margin-bottom: 15px;
+        svg {
+          width: auto;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

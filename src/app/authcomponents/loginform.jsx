@@ -12,7 +12,7 @@ const LoginForm = () => {
         <div className={styles.loginContainer}>
             <h3>Login to your account</h3>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <form action="" className={styles.loginForm}>
+            <form action="/dashboard" className={styles.loginForm}>
                 <div className={styles.inputBox}>
                     <input type="text" name="name" placeholder="User Name" required />
                 </div>

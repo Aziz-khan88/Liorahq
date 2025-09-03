@@ -87,11 +87,11 @@ const Page = () => {
                         </p>
                     </div>
                     <div className={styles.questionBtn}>
-                        <button
+                        <a href="/dashboard"
                             className={styles.skipBtn}
                         >
                             Skip
-                        </button>
+                        </a>
                     </div>
                 </div>
 

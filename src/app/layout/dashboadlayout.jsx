@@ -15,10 +15,10 @@ const DashboadLayout = ({ children }) => {
           </Col>
         </Row>
         <Row>
-          <Col md={2}>
+          <Col md={3} lg={3} xl={2}>
             <DashboardSidebar />
           </Col>
-          <Col md={10} >
+          <Col md={9} lg={9} xl={10} >
             <DashboardMain>{children}</DashboardMain>
           </Col>
         </Row>

@@ -1,4 +1,5 @@
 .loginContainer {
+  max-width: 80%;
   h3 {
     font-style: normal;
     font-weight: 600;
@@ -206,6 +207,727 @@
       cursor: pointer;
       &:hover {
         color: #1a76ff;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .loginContainer {
+    max-width: 100%;
+    h3 {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 22px;
+    }
+    .loginForm {
+      .inputBox {
+        margin-bottom: 15px;
+        input {
+          height: 55px;
+          font-size: 14px;
+          line-height: 22px;
+          padding: 0px 15px;
+        }
+        span {
+          right: 20px;
+          top: 50%;
+          transform: translate(0px, -50%);
+          svg {
+            height: 18px;
+          }
+        }
+      }
+      .inputCheck {
+        margin-bottom: 15px;
+        .checkBox {
+          margin-bottom: 0px;
+          font-size: 15px;
+          line-height: 22px;
+          input {
+            margin-right: 10px;
+            width: 18px;
+            height: 18px;
+          }
+        }
+        .forgotPass {
+          a {
+            font-size: 15px;
+            line-height: 22px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 20px;
+        button {
+          height: 55px;
+          font-size: 15px;
+          line-height: 15px;
+          &.googleBtn {
+            svg {
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+      .extraTxt {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 25px;
+      }
+      .extraLinks {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+    .OtpForm {
+      .inputBox {
+        margin-bottom: 30px;
+        div {
+          input {
+            flex: 0 0 calc(60px);
+            height: 60px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 25px;
+        button {
+          height: 55px;
+          font-size: 15px;
+          line-height: 15px;
+          &.googleBtn {
+            svg {
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+      .sendCode {
+        font-size: 15px;
+        line-height: 15px;
+        margin-top: 25px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .loginContainer {
+    max-width: 100%;
+
+    h3 {
+      font-size: 22px;
+      line-height: 36px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 22px;
+    }
+    .loginForm {
+      .inputBox {
+        margin-bottom: 15px;
+        input {
+          height: 50px;
+          font-size: 13px;
+          line-height: 22px;
+          padding: 0px 15px;
+        }
+        span {
+          right: 15px;
+          top: 50%;
+          transform: translate(0px, -50%);
+          svg {
+            height: 18px;
+          }
+        }
+      }
+      .inputCheck {
+        margin-bottom: 15px;
+        .checkBox {
+          margin-bottom: 0px;
+          font-size: 14px;
+          line-height: 22px;
+          input {
+            margin-right: 8px;
+            width: 16px;
+            height: 16px;
+          }
+        }
+        .forgotPass {
+          a {
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 20px;
+        button {
+          height: 50px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+      .extraTxt {
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 15px;
+      }
+      .extraLinks {
+        font-size: 14px;
+        line-height: 14px;
+      }
+    }
+    .OtpForm {
+      .inputBox {
+        margin-bottom: 30px;
+        div {
+          input {
+            flex: 0 0 calc(60px);
+            height: 50px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 25px;
+        button {
+          height: 50px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 12px;
+            }
+          }
+        }
+      }
+      .sendCode {
+        font-size: 14px;
+        line-height: 15px;
+        margin-top: 25px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .loginContainer {
+    max-width: 100%;
+
+    h3 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 22px;
+    }
+    .loginForm {
+      .inputBox {
+        margin-bottom: 10px;
+        input {
+          height: 50px;
+          font-size: 13px;
+          line-height: 22px;
+          padding: 0px 15px;
+        }
+        span {
+          right: 15px;
+          top: 50%;
+          transform: translate(0px, -50%);
+          svg {
+            height: 16px;
+          }
+        }
+      }
+      .inputCheck {
+        margin-bottom: 15px;
+        .checkBox {
+          margin-bottom: 0px;
+          font-size: 14px;
+          line-height: 22px;
+          input {
+            margin-right: 8px;
+            width: 16px;
+            height: 16px;
+          }
+        }
+        .forgotPass {
+          a {
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 15px;
+        button {
+          height: 50px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+      .extraTxt {
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 15px;
+      }
+      .extraLinks {
+        font-size: 14px;
+        line-height: 14px;
+      }
+    }
+    .OtpForm {
+      .inputBox {
+        margin-bottom: 25px;
+        div {
+          input {
+            flex: 0 0 calc(60px);
+            height: 50px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 25px;
+        button {
+          height: 50px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 12px;
+            }
+          }
+        }
+      }
+      .sendCode {
+        font-size: 14px;
+        line-height: 15px;
+        margin-top: 25px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .loginContainer {
+    max-width: 100%;
+
+    h3 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 22px;
+    }
+    .loginForm {
+      .inputBox {
+        margin-bottom: 10px;
+        input {
+          height: 50px;
+          font-size: 13px;
+          line-height: 22px;
+          padding: 0px 15px;
+        }
+        span {
+          right: 15px;
+          top: 50%;
+          transform: translate(0px, -50%);
+          svg {
+            height: 16px;
+          }
+        }
+      }
+      .inputCheck {
+        margin-bottom: 15px;
+        .checkBox {
+          margin-bottom: 0px;
+          font-size: 14px;
+          line-height: 22px;
+          input {
+            margin-right: 8px;
+            width: 16px;
+            height: 16px;
+          }
+        }
+        .forgotPass {
+          a {
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 15px;
+        button {
+          height: 50px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+      .extraTxt {
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 15px;
+      }
+      .extraLinks {
+        font-size: 14px;
+        line-height: 14px;
+      }
+    }
+    .OtpForm {
+      .inputBox {
+        margin-bottom: 25px;
+        div {
+          input {
+            flex: 0 0 calc(60px);
+            height: 50px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 25px;
+        button {
+          height: 50px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 12px;
+            }
+          }
+        }
+      }
+      .sendCode {
+        font-size: 14px;
+        line-height: 15px;
+        margin-top: 25px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .loginContainer {
+    max-width: 100%;
+
+    h3 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 22px;
+    }
+    .loginForm {
+      .inputBox {
+        margin-bottom: 10px;
+        input {
+          height: 45px;
+          font-size: 13px;
+          line-height: 22px;
+          padding: 0px 15px;
+        }
+        span {
+          right: 15px;
+          top: 50%;
+          transform: translate(0px, -50%);
+          svg {
+            height: 16px;
+          }
+        }
+      }
+      .inputCheck {
+        margin-bottom: 15px;
+        .checkBox {
+          margin-bottom: 0px;
+          font-size: 14px;
+          line-height: 22px;
+          input {
+            margin-right: 8px;
+            width: 16px;
+            height: 16px;
+          }
+        }
+        .forgotPass {
+          a {
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 15px;
+        button {
+          height: 45px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+      .extraTxt {
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 15px;
+      }
+      .extraLinks {
+        font-size: 14px;
+        line-height: 14px;
+      }
+    }
+    .OtpForm {
+      .inputBox {
+        margin-bottom: 25px;
+        div {
+          input {
+            flex: 0 0 calc(60px);
+            height: 50px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 25px;
+        button {
+          height: 45px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 12px;
+            }
+          }
+        }
+      }
+      .sendCode {
+        font-size: 14px;
+        line-height: 15px;
+        margin-top: 25px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .loginContainer {
+    max-width: 100%;
+
+    h3 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 22px;
+    }
+    .loginForm {
+      .inputBox {
+        margin-bottom: 10px;
+        input {
+          height: 45px;
+          font-size: 13px;
+          line-height: 22px;
+          padding: 0px 15px;
+        }
+        span {
+          right: 15px;
+          top: 50%;
+          transform: translate(0px, -50%);
+          svg {
+            height: 16px;
+          }
+        }
+      }
+      .inputCheck {
+        margin-bottom: 15px;
+        .checkBox {
+          margin-bottom: 0px;
+          font-size: 14px;
+          line-height: 22px;
+          input {
+            margin-right: 8px;
+            width: 16px;
+            height: 16px;
+          }
+        }
+        .forgotPass {
+          a {
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 15px;
+        button {
+          height: 45px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+      .extraTxt {
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 15px;
+      }
+      .extraLinks {
+        font-size: 14px;
+        line-height: 14px;
+      }
+    }
+    .OtpForm {
+      .inputBox {
+        margin-bottom: 25px;
+        div {
+          input {
+            flex: 0 0 calc(60px);
+            height: 50px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 25px;
+        button {
+          height: 45px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 12px;
+            }
+          }
+        }
+      }
+      .sendCode {
+        font-size: 14px;
+        line-height: 15px;
+        margin-top: 25px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .loginContainer {
+    max-width: 100%;
+
+    h3 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 22px;
+    }
+    .loginForm {
+      .inputBox {
+        margin-bottom: 10px;
+        input {
+          height: 45px;
+          font-size: 13px;
+          line-height: 22px;
+          padding: 0px 15px;
+        }
+        span {
+          right: 15px;
+          top: 50%;
+          transform: translate(0px, -50%);
+          svg {
+            height: 16px;
+          }
+        }
+      }
+      .inputCheck {
+        margin-bottom: 15px;
+        .checkBox {
+          margin-bottom: 0px;
+          font-size: 13px;
+          line-height: 22px;
+          input {
+            margin-right: 8px;
+            width: 16px;
+            height: 16px;
+          }
+        }
+        .forgotPass {
+          a {
+            font-size: 12px;
+            line-height: 20px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 15px;
+        button {
+          height: 45px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+      .extraTxt {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 14px;
+      }
+      .extraLinks {
+        font-size: 13px;
+        line-height: 13px;
+      }
+    }
+    .OtpForm {
+      .inputBox {
+        margin-bottom: 25px;
+        div {
+          input {
+            flex: 0 0 calc(60px);
+            height: 50px;
+          }
+        }
+      }
+      .inputButton {
+        margin-bottom: 25px;
+        button {
+          height: 45px;
+          font-size: 14px;
+          line-height: 14px;
+          &.googleBtn {
+            svg {
+              margin-right: 12px;
+            }
+          }
+        }
+      }
+      .sendCode {
+        font-size: 14px;
+        line-height: 15px;
+        margin-top: 25px;
       }
     }
   }

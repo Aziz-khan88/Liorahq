@@ -12,7 +12,7 @@ const ResetPassword = () => {
         <div className={styles.loginContainer}>
             <h3>Reset Password</h3>
             <p>Enter your email to reset your password</p>
-            <form action="" className={styles.loginForm}>
+            <form action="/sign-in" className={styles.loginForm}>
                 <div className={styles.inputBox}>
                     <input
                         type={showNewPassword ? "text" : "password"}

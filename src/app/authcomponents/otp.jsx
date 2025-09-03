@@ -13,7 +13,7 @@ const OTP = () => {
             <h3>Verification Code</h3>
             <p>Enter 6-digit code sent to your email address</p>
 
-            <form action="" className={styles.OtpForm}>
+            <form action="/reset-password" className={styles.OtpForm}>
                 <div className={styles.inputBox}>
                     <OtpInput
                         value={otp}
