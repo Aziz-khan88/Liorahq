@@ -156,3 +156,481 @@
     }
   }
 }
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .coursesContainer {
+    .coursesTabs {
+      gap: 10px;
+      margin-bottom: 20px;
+      li {
+        height: 40px;
+        font-size: 14px;
+        line-height: 16px;
+        min-width: 100px;
+        padding: 0px 20px;
+      }
+    }
+    .coursesContent {
+      gap: 10px;
+      .coursesSection {
+        flex: 0 0 calc(33.33% - 10px);
+        padding: 15px;
+
+        .coursesImg {
+          height: 170px;
+          margin-bottom: 15px;
+        }
+        .coursesTxt {
+          h3 {
+            font-size: 15px;
+            line-height: 20px;
+          }
+          p {
+            font-size: 12px;
+            line-height: 20px;
+            margin-bottom: 10px;
+          }
+        }
+        .coursesAction {
+          .coursesPrice {
+            font-size: 19px;
+            line-height: 19px;
+          }
+        }
+        a {
+          width: 110px;
+          height: 40px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+      }
+    }
+    .paginationContainer {
+      width: 100%;
+      margin-top: 20px;
+      .coursesPagination {
+        div {
+          height: 35px;
+          font-size: 12px;
+          line-height: 35px;
+          flex: 0 0 45px;
+          &:first-child {
+            flex: 0 0 60px;
+          }
+          &:last-child {
+            flex: 0 0 60px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .coursesContainer {
+    .coursesTabs {
+      gap: 10px;
+      margin-bottom: 20px;
+      li {
+        height: 40px;
+        font-size: 13px;
+        line-height: 13px;
+        min-width: 100px;
+        padding: 0px 20px;
+      }
+    }
+    .coursesContent {
+      gap: 10px;
+      .coursesSection {
+        flex: 0 0 calc(33.33% - 10px);
+        padding: 15px;
+
+        .coursesImg {
+          height: 160px;
+          margin-bottom: 15px;
+        }
+        .coursesTxt {
+          h3 {
+            font-size: 14px;
+            line-height: 19px;
+          }
+          p {
+            font-size: 12px;
+            line-height: 20px;
+            margin-bottom: 10px;
+          }
+        }
+        .coursesAction {
+          .coursesPrice {
+            font-size: 18px;
+            line-height: 18px;
+          }
+        }
+        a {
+          width: 110px;
+          height: 40px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .paginationContainer {
+      width: 100%;
+      margin-top: 15px;
+      .coursesPagination {
+        div {
+          height: 35px;
+          font-size: 11px;
+          line-height: 35px;
+          flex: 0 0 42px;
+          &:first-child {
+            flex: 0 0 60px;
+          }
+          &:last-child {
+            flex: 0 0 60px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .coursesContainer {
+    .coursesTabs {
+      gap: 10px;
+      margin-bottom: 20px;
+      li {
+        height: 40px;
+        font-size: 13px;
+        line-height: 13px;
+        min-width: 100px;
+        padding: 0px 20px;
+      }
+    }
+    .coursesContent {
+      gap: 10px;
+      .coursesSection {
+        flex: 0 0 calc(33.33% - 10px);
+        padding: 15px;
+
+        .coursesImg {
+          height: 160px;
+          margin-bottom: 15px;
+        }
+        .coursesTxt {
+          h3 {
+            font-size: 13px;
+            line-height: 18px;
+          }
+          p {
+            font-size: 11px;
+            line-height: 18px;
+            margin-bottom: 10px;
+          }
+        }
+        .coursesAction {
+          .coursesPrice {
+            font-size: 16px;
+            line-height: 16px;
+          }
+        }
+        a {
+          width: 100px;
+          height: 35px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .paginationContainer {
+      width: 100%;
+      margin-top: 15px;
+      .coursesPagination {
+        div {
+          height: 35px;
+          font-size: 11px;
+          line-height: 35px;
+          flex: 0 0 42px;
+          &:first-child {
+            flex: 0 0 60px;
+          }
+          &:last-child {
+            flex: 0 0 60px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .coursesContainer {
+    .coursesTabs {
+      gap: 10px;
+      margin-bottom: 20px;
+      li {
+        height: 40px;
+        font-size: 13px;
+        line-height: 13px;
+        min-width: 100px;
+        padding: 0px 20px;
+      }
+    }
+    .coursesContent {
+      gap: 10px;
+      .coursesSection {
+        flex: 0 0 calc(50% - 10px);
+        padding: 15px;
+
+        .coursesImg {
+          height: 160px;
+          margin-bottom: 15px;
+        }
+        .coursesTxt {
+          h3 {
+            font-size: 13px;
+            line-height: 18px;
+          }
+          p {
+            font-size: 11px;
+            line-height: 18px;
+            margin-bottom: 10px;
+          }
+        }
+        .coursesAction {
+          .coursesPrice {
+            font-size: 16px;
+            line-height: 16px;
+          }
+        }
+        a {
+          width: 100px;
+          height: 35px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .paginationContainer {
+      width: 100%;
+      margin-top: 15px;
+      .coursesPagination {
+        div {
+          height: 35px;
+          font-size: 11px;
+          line-height: 35px;
+          flex: 0 0 42px;
+          &:first-child {
+            flex: 0 0 60px;
+          }
+          &:last-child {
+            flex: 0 0 60px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .coursesContainer {
+    .coursesTabs {
+      gap: 5px;
+      margin-bottom: 20px;
+      li {
+        height: 35px;
+        font-size: 12px;
+        line-height: 12px;
+        min-width: 90px;
+        padding: 0px 10px;
+      }
+    }
+    .coursesContent {
+      gap: 5px;
+      .coursesSection {
+        flex: 0 0 calc(50% - 5px);
+        padding: 15px;
+
+        .coursesImg {
+          height: 160px;
+          margin-bottom: 15px;
+        }
+        .coursesTxt {
+          h3 {
+            font-size: 13px;
+            line-height: 18px;
+          }
+          p {
+            font-size: 11px;
+            line-height: 18px;
+            margin-bottom: 10px;
+          }
+        }
+        .coursesAction {
+          .coursesPrice {
+            font-size: 16px;
+            line-height: 16px;
+          }
+        }
+        a {
+          width: 100px;
+          height: 35px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .paginationContainer {
+      width: 100%;
+      margin-top: 15px;
+      .coursesPagination {
+        div {
+          height: 35px;
+          font-size: 11px;
+          line-height: 35px;
+          flex: 0 0 42px;
+          &:first-child {
+            flex: 0 0 60px;
+          }
+          &:last-child {
+            flex: 0 0 60px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .coursesContainer {
+    .coursesTabs {
+      gap: 5px;
+      margin-bottom: 10px;
+      li {
+        height: 35px;
+        font-size: 12px;
+        line-height: 12px;
+        min-width: 80px;
+        padding: 0px 10px;
+      }
+    }
+    .coursesContent {
+      gap: 5px;
+      .coursesSection {
+        flex: 0 0 calc(100% - 0px);
+        padding: 15px;
+
+        .coursesImg {
+          height: 160px;
+          margin-bottom: 15px;
+        }
+        .coursesTxt {
+          h3 {
+            font-size: 13px;
+            line-height: 18px;
+          }
+          p {
+            font-size: 11px;
+            line-height: 18px;
+            margin-bottom: 10px;
+          }
+        }
+        .coursesAction {
+          .coursesPrice {
+            font-size: 16px;
+            line-height: 16px;
+          }
+        }
+        a {
+          width: 100px;
+          height: 35px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .paginationContainer {
+      width: 100%;
+      margin-top: 15px;
+      .coursesPagination {
+        div {
+          height: 35px;
+          font-size: 11px;
+          line-height: 35px;
+          flex: 0 0 42px;
+          &:first-child {
+            flex: 0 0 60px;
+          }
+          &:last-child {
+            flex: 0 0 60px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .coursesContainer {
+    .coursesTabs {
+      gap: 5px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+      li {
+        flex: 0 0 100%;
+        height: 35px;
+        font-size: 12px;
+        line-height: 12px;
+        min-width: 80px;
+        padding: 0px 10px;
+      }
+    }
+    .coursesContent {
+      gap: 5px;
+      .coursesSection {
+        flex: 0 0 calc(100% - 0px);
+        padding: 15px;
+
+        .coursesImg {
+          height: 160px;
+          margin-bottom: 15px;
+        }
+        .coursesTxt {
+          h3 {
+            font-size: 13px;
+            line-height: 18px;
+          }
+          p {
+            font-size: 11px;
+            line-height: 18px;
+            margin-bottom: 10px;
+          }
+        }
+        .coursesAction {
+          .coursesPrice {
+            font-size: 16px;
+            line-height: 16px;
+          }
+        }
+        a {
+          width: 100px;
+          height: 35px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .paginationContainer {
+      width: 100%;
+      margin-top: 15px;
+      .coursesPagination {
+        div {
+          height: 35px;
+          font-size: 11px;
+          line-height: 35px;
+          flex: 0 0 42px;
+          &:first-child {
+            flex: 0 0 60px;
+          }
+          &:last-child {
+            flex: 0 0 60px;
+          }
+        }
+      }
+    }
+  }
+}

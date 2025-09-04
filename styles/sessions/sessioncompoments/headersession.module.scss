@@ -198,3 +198,697 @@
     }
   }
 }
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .headerMain {
+    margin-bottom: 30px;
+    .headerTitle {
+      font-size: 25px;
+      line-height: 35px;
+    }
+    .headerAction {
+      ul {
+        gap: 10px;
+        li {
+          select {
+            height: 45px;
+            width: 180px;
+            padding: 0px 10px;
+            font-size: 14px;
+            line-height: 14px;
+          }
+          input {
+            height: 45px;
+            width: 180px;
+            padding: 0px 10px;
+            font-size: 14px;
+            line-height: 14px;
+          }
+          .searchBtn {
+            height: 45px;
+            width: 220px;
+            input {
+              padding: 0px 10px;
+              font-size: 14px;
+              line-height: 14px;
+            }
+            button {
+              right: 10px;
+            }
+          }
+          .fillterBox {
+            height: 45px;
+            width: 160px;
+            input {
+              padding: 0px 35px 0px 10px;
+              font-size: 14px;
+              line-height: 14px;
+            }
+            .filterIcon {
+              right: 10px;
+            }
+          }
+          .sortContainer {
+            height: 45px;
+            width: 120px;
+            padding: 0px 10px;
+            font-size: 14px;
+
+            svg {
+              bottom: 28px;
+              right: 10px;
+              &:last-child {
+                top: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .createPost {
+      height: 45px;
+      width: 160px;
+
+      a {
+        font-size: 14px;
+        line-height: 14px;
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+    .newPost {
+      li {
+        button {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+        a {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .headerMain {
+    margin-bottom: 25px;
+    .headerTitle {
+      font-size: 22px;
+      line-height: 32px;
+    }
+    .headerAction {
+      ul {
+        gap: 10px;
+        li {
+          select {
+            height: 40px;
+            width: 180px;
+            padding: 0px 10px;
+            font-size: 14px;
+            line-height: 14px;
+          }
+          input {
+            height: 40px;
+            width: 180px;
+            padding: 0px 10px;
+            font-size: 14px;
+            line-height: 14px;
+          }
+          .searchBtn {
+            height: 40px;
+            width: 220px;
+            input {
+              padding: 0px 10px;
+              font-size: 14px;
+              line-height: 14px;
+            }
+            button {
+              right: 10px;
+            }
+          }
+          .fillterBox {
+            height: 45px;
+            width: 160px;
+            input {
+              padding: 0px 35px 0px 10px;
+              font-size: 14px;
+              line-height: 14px;
+            }
+            .filterIcon {
+              right: 10px;
+            }
+          }
+          .sortContainer {
+            height: 45px;
+            width: 120px;
+            padding: 0px 10px;
+            font-size: 14px;
+
+            svg {
+              bottom: 28px;
+              right: 10px;
+              &:last-child {
+                top: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .createPost {
+      height: 50px;
+      width: 160px;
+
+      a {
+        font-size: 14px;
+        line-height: 14px;
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+    .newPost {
+      li {
+        button {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+        a {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .headerMain {
+    margin-bottom: 30px;
+    .headerTitle {
+      font-size: 22px;
+      line-height: 32px;
+    }
+    .headerAction {
+      ul {
+        gap: 10px;
+        li {
+          select {
+            height: 35px;
+            width: 160px;
+            padding: 0px 10px;
+            font-size: 12px;
+            line-height: 12px;
+          }
+          input {
+            height: 35px;
+            width: 180px;
+            padding: 0px 10px;
+            font-size: 12px;
+            line-height: 12px;
+          }
+          .searchBtn {
+            height: 35px;
+            width: 180px;
+            input {
+              padding: 0px 10px;
+              font-size: 12px;
+              line-height: 12px;
+            }
+            button {
+              right: 5px;
+              svg {
+                width: auto;
+                height: 15px;
+              }
+            }
+          }
+          .fillterBox {
+            height: 35px;
+            width: 160px;
+            input {
+              padding: 0px 35px 0px 10px;
+              font-size: 12px;
+              line-height: 12px;
+            }
+            .filterIcon {
+              right: 10px;
+            }
+          }
+          .sortContainer {
+            height: 35px;
+            width: 120px;
+            padding: 0px 10px;
+            font-size: 12px;
+
+            svg {
+              bottom: 20px;
+              right: 10px;
+              width: auto;
+              height: 5px;
+              &:last-child {
+                top: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .createPost {
+      height: 50px;
+      width: 160px;
+
+      a {
+        font-size: 14px;
+        line-height: 14px;
+        svg {
+          margin-right: 10px;
+          width: auto;
+          height: 5px;
+        }
+      }
+    }
+    .newPost {
+      li {
+        button {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+        a {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .headerMain {
+    margin-bottom: 30px;
+    .headerTitle {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .headerAction {
+      ul {
+        gap: 10px;
+        li {
+          select {
+            height: 35px;
+            width: 130px;
+            padding: 0px 10px;
+            font-size: 12px;
+            line-height: 12px;
+          }
+          input {
+            height: 35px;
+            width: 160px;
+            padding: 0px 10px;
+            font-size: 12px;
+            line-height: 12px;
+          }
+          .searchBtn {
+            height: 35px;
+            width: 160px;
+            input {
+              padding: 0px 10px;
+              font-size: 12px;
+              line-height: 12px;
+            }
+            button {
+              right: 5px;
+              svg {
+                width: auto;
+                height: 15px;
+              }
+            }
+          }
+          .fillterBox {
+            height: 35px;
+            width: 130px;
+            input {
+              padding: 0px 35px 0px 10px;
+              font-size: 12px;
+              line-height: 12px;
+            }
+            .filterIcon {
+              right: 10px;
+            }
+          }
+          .sortContainer {
+            height: 35px;
+            width: 120px;
+            padding: 0px 10px;
+            font-size: 12px;
+
+            svg {
+              bottom: 20px;
+              right: 10px;
+              width: auto;
+              height: 5px;
+              &:last-child {
+                top: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .createPost {
+      height: 50px;
+      width: 160px;
+
+      a {
+        font-size: 14px;
+        line-height: 14px;
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+    .newPost {
+      li {
+        button {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+        a {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .headerMain {
+    margin-bottom: 30px;
+    .headerTitle {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .headerAction {
+      ul {
+        gap: 10px;
+        li {
+          select {
+            height: 35px;
+            width: 120px;
+            padding: 0px 10px;
+            font-size: 12px;
+            line-height: 12px;
+          }
+          input {
+            height: 35px;
+            width: 120px;
+            padding: 0px 10px;
+            font-size: 12px;
+            line-height: 12px;
+          }
+          .searchBtn {
+            height: 35px;
+            width: 120px;
+            input {
+              padding: 0px 10px;
+              font-size: 12px;
+              line-height: 12px;
+            }
+            button {
+              right: 5px;
+              svg {
+                width: auto;
+                height: 15px;
+              }
+            }
+          }
+          .fillterBox {
+            height: 35px;
+            width: 120px;
+            input {
+              padding: 0px 35px 0px 10px;
+              font-size: 12px;
+              line-height: 12px;
+            }
+            .filterIcon {
+              right: 10px;
+            }
+          }
+          .sortContainer {
+            height: 35px;
+            width: 120px;
+            padding: 0px 10px;
+            font-size: 12px;
+
+            svg {
+              bottom: 20px;
+              right: 10px;
+              width: auto;
+              height: 5px;
+              &:last-child {
+                top: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .createPost {
+      height: 50px;
+      width: 160px;
+
+      a {
+        font-size: 14px;
+        line-height: 14px;
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+    .newPost {
+      li {
+        button {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+        a {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .headerMain {
+    margin-bottom: 30px;
+    .headerTitle {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    .headerAction {
+      ul {
+        gap: 10px;
+        li {
+          select {
+            height: 35px;
+            width: 120px;
+            padding: 0px 10px;
+            font-size: 12px;
+            line-height: 12px;
+          }
+          input {
+            height: 35px;
+            width: 120px;
+            padding: 0px 10px;
+            font-size: 12px;
+            line-height: 12px;
+          }
+          .searchBtn {
+            height: 35px;
+            width: 120px;
+            input {
+              padding: 0px 10px;
+              font-size: 12px;
+              line-height: 12px;
+            }
+            button {
+              right: 5px;
+              svg {
+                width: auto;
+                height: 15px;
+              }
+            }
+          }
+          .fillterBox {
+            height: 35px;
+            width: 120px;
+            input {
+              padding: 0px 35px 0px 10px;
+              font-size: 12px;
+              line-height: 12px;
+            }
+            .filterIcon {
+              right: 10px;
+            }
+          }
+          .sortContainer {
+            height: 35px;
+            width: 120px;
+            padding: 0px 10px;
+            font-size: 12px;
+
+            svg {
+              bottom: 20px;
+              right: 10px;
+              width: auto;
+              height: 5px;
+              &:last-child {
+                top: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .createPost {
+      height: 50px;
+      width: 160px;
+
+      a {
+        font-size: 14px;
+        line-height: 14px;
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+    .newPost {
+      li {
+        button {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+        a {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .headerMain {
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    .headerTitle {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+    .headerAction {
+      ul {
+        gap: 5px;
+        flex-wrap: wrap;
+        li {
+          flex: 0 0 100%;
+          select {
+            height: 35px;
+            width: 100%;
+            padding: 0px 10px;
+            font-size: 12px;
+            line-height: 12px;
+          }
+          input {
+            height: 35px;
+            width: 100%;
+            padding: 0px 10px;
+            font-size: 12px;
+            line-height: 12px;
+          }
+          .searchBtn {
+            height: 35px;
+            width: 100%;
+            input {
+              padding: 0px 10px;
+              font-size: 12px;
+              line-height: 12px;
+            }
+            button {
+              right: 5px;
+              svg {
+                width: auto;
+                height: 15px;
+              }
+            }
+          }
+          .fillterBox {
+            height: 35px;
+            width: 100%;
+            input {
+              padding: 0px 35px 0px 10px;
+              font-size: 12px;
+              line-height: 12px;
+            }
+            .filterIcon {
+              right: 10px;
+            }
+          }
+          .sortContainer {
+            height: 35px;
+            width: 100%;
+            padding: 0px 10px;
+            font-size: 12px;
+
+            svg {
+              bottom: 20px;
+              right: 10px;
+              width: auto;
+              height: 5px;
+              &:last-child {
+                top: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .createPost {
+      height: 50px;
+      width: 100%;
+
+      a {
+        font-size: 14px;
+        line-height: 14px;
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+    .newPost {
+      li {
+        button {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+        a {
+          width: 120px;
+          height: 45px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

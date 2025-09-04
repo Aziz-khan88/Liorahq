@@ -1,10 +1,10 @@
 
 import styles from "@/styles/dashboard/dashboard.module.scss"
-import SessionBar from "./dashboardcomponents/sessionbar";
-import AvailableCourses from "./dashboardcomponents/availablecourses";
-import Overview from "./dashboardcomponents/overview";
-import CommunityBoard from "./dashboardcomponents/communityboard";
-import Post from "./dashboardcomponents/post";
+import SessionBar from "@/src/app/dashboard/dashboardcomponents/sessionbar";
+import AvailableCourses from "@/src/app/dashboard/dashboardcomponents/availablecourses";
+import Overview from "@/src/app/dashboard/dashboardcomponents/overview";
+import CommunityBoard from "@/src/app/dashboard/dashboardcomponents/communityboard";
+import Post from "@/src/app/dashboard/dashboardcomponents/post";
 
 
 const Page = () => {

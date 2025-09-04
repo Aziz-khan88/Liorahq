@@ -18,3 +18,94 @@
     }
   }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .dashboardPage {
+    .dashboardContent {
+      flex: 0 0 65%;
+    }
+    .dashboardSide {
+      flex: 0 0 calc(35% - 20px);
+      padding: 20px;
+      height: calc(100vh + 80px);
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .dashboardPage {
+    .dashboardContent {
+      flex: 0 0 65%;
+    }
+    .dashboardSide {
+      flex: 0 0 calc(35% - 20px);
+      padding: 15px;
+      height: calc(100vh + 80px);
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .dashboardPage {
+    .dashboardContent {
+      flex: 0 0 65%;
+    }
+    .dashboardSide {
+      flex: 0 0 calc(35% - 10px);
+      padding: 15px;
+      height: calc(100vh + 80px);
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .dashboardPage {
+    flex-wrap: wrap;
+    .dashboardContent {
+      flex: 0 0 100%;
+    }
+    .dashboardSide {
+      flex: 0 0 calc(100% - 0px);
+      padding: 15px;
+      height: 100%;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .dashboardPage {
+    flex-wrap: wrap;
+    .dashboardContent {
+      flex: 0 0 100%;
+    }
+    .dashboardSide {
+      flex: 0 0 calc(100% - 0px);
+      padding: 15px;
+      height: 100%;
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .dashboardPage {
+    flex-wrap: wrap;
+    .dashboardContent {
+      flex: 0 0 100%;
+      overflow-x: hidden;
+    }
+    .dashboardSide {
+      flex: 0 0 calc(100% - 0px);
+      padding: 15px;
+      height: 100%;
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .dashboardPage {
+    flex-wrap: wrap;
+    .dashboardContent {
+      flex: 0 0 100%;
+      overflow-x: hidden;
+    }
+    .dashboardSide {
+      flex: 0 0 100%;
+      padding: 15px;
+      height: 100%;
+    }
+  }
+}

@@ -20,7 +20,108 @@
         margin-bottom: 0px;
       }
     }
-    .btn {
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .overviewSec {
+    padding: 20px;
+    .overviewHeader {
+      margin-bottom: 20px;
+      .tit {
+        h2 {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .overviewSec {
+    padding: 15px;
+    .overviewHeader {
+      margin-bottom: 20px;
+      .tit {
+        h2 {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .overviewSec {
+    padding: 15px;
+    .overviewHeader {
+      margin-bottom: 20px;
+      .tit {
+        h2 {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .overviewSec {
+    padding: 15px;
+    margin-bottom: 20px;
+    .overviewHeader {
+      margin-bottom: 20px;
+      .tit {
+        h2 {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .overviewSec {
+    padding: 15px;
+    margin-bottom: 15px;
+    .overviewHeader {
+      margin-bottom: 20px;
+      .tit {
+        h2 {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .overviewSec {
+    padding: 15px;
+    margin-bottom: 15px;
+    .overviewHeader {
+      margin-bottom: 20px;
+      .tit {
+        h2 {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .overviewSec {
+    padding: 15px;
+    margin-bottom: 15px;
+    .overviewHeader {
+      margin-bottom: 15px;
+      .tit {
+        h2 {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
     }
   }
 }

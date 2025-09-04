@@ -240,6 +240,19 @@ body {
       font-size: 18px;
       line-height: 18px;
     }
+    .embla_container {
+      gap: 5px;
+      &.centerMode {
+        margin: 20px 0px 0px;
+      }
+      div {
+        height: 35px;
+        width: 35px;
+        svg {
+          height: 15px;
+        }
+      }
+    }
   }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
@@ -283,6 +296,19 @@ body {
       height: 50px;
       font-size: 17px;
       line-height: 17px;
+    }
+    .embla_container {
+      gap: 5px;
+      &.centerMode {
+        margin: 20px 0px 0px;
+      }
+      div {
+        height: 32px;
+        width: 32px;
+        svg {
+          height: 14px;
+        }
+      }
     }
   }
 }
@@ -328,6 +354,19 @@ body {
       font-size: 17px;
       line-height: 17px;
     }
+    .embla_container {
+      gap: 5px;
+      &.centerMode {
+        margin: 20px 0px 0px;
+      }
+      div {
+        height: 32px;
+        width: 32px;
+        svg {
+          height: 14px;
+        }
+      }
+    }
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
@@ -372,6 +411,19 @@ body {
       font-size: 16px;
       line-height: 16px;
     }
+    .embla_container {
+      gap: 5px;
+      &.centerMode {
+        margin: 20px 0px 0px;
+      }
+      div {
+        height: 30px;
+        width: 30px;
+        svg {
+          height: 12px;
+        }
+      }
+    }
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 899px) {
@@ -415,6 +467,19 @@ body {
       height: 42px;
       font-size: 15px;
       line-height: 15px;
+    }
+    .embla_container {
+      gap: 5px;
+      &.centerMode {
+        margin: 20px 0px 0px;
+      }
+      div {
+        height: 30px;
+        width: 30px;
+        svg {
+          height: 12px;
+        }
+      }
     }
   }
 }
@@ -470,6 +535,19 @@ body {
       font-size: 15px;
       line-height: 15px;
     }
+    .embla_container {
+      gap: 5px;
+      &.centerMode {
+        margin: 20px 0px 0px;
+      }
+      div {
+        height: 30px;
+        width: 30px;
+        svg {
+          height: 12px;
+        }
+      }
+    }
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
@@ -524,6 +602,19 @@ body {
       height: 42px;
       font-size: 15px;
       line-height: 15px;
+    }
+    .embla_container {
+      gap: 5px;
+      &.centerMode {
+        margin: 20px 0px 0px;
+      }
+      div {
+        height: 30px;
+        width: 30px;
+        svg {
+          height: 12px;
+        }
+      }
     }
   }
 }
