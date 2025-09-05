@@ -24,3 +24,116 @@
     margin-bottom: 20px;
   }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .mainSetting {
+    padding: 35px 20px;
+    margin-bottom: 20px;
+    h2 {
+      font-size: 15px;
+      line-height: 15px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .mainSetting {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    h2 {
+      font-size: 15px;
+      line-height: 15px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .mainSetting {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    h2 {
+      font-size: 15px;
+      line-height: 15px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .mainSetting {
+    padding: 35px 20px;
+    margin-bottom: 20px;
+    h2 {
+      font-size: 15px;
+      line-height: 15px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .mainSetting {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    h2 {
+      font-size: 15px;
+      line-height: 15px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .mainSetting {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    h2 {
+      font-size: 15px;
+      line-height: 15px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .mainSetting {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    h2 {
+      font-size: 15px;
+      line-height: 15px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

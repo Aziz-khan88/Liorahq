@@ -9,7 +9,7 @@ import RelatedCourses from "@/src/app/community-board/communitycomponents/relate
 
 const Page = () => {
     return (
-        <div >
+        <>
             <div className={styles.sessionContent}>
                 <HeaderSession title="Community Board" />
             </div>
@@ -21,7 +21,7 @@ const Page = () => {
                     <RelatedCourses />
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

@@ -1,7 +1,7 @@
 import styles from "@/styles/post-details/postdetailcomponents/postcomments.module.scss"
 import ProImg from "media/images/dashboardImages/profileImg.webp";
 import Image from "next/image";
-import { CommentsIcon } from "../../app-constants";
+import { CommentsIcon } from "@/src/app/app-constants";
 
 
 const PostComments = () => {

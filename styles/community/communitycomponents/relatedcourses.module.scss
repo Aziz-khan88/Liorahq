@@ -79,3 +79,317 @@
     }
   }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .relatedcourses {
+    margin-bottom: 20px;
+    h2 {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 15px;
+    }
+    .coursesSection {
+      margin-bottom: 20px;
+      .coursesImg {
+        height: 170px;
+        margin-bottom: 15px;
+      }
+      .coursesTxt {
+        h3 {
+          font-size: 14px;
+          line-height: 18px;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 12px;
+          line-height: 20px;
+          margin-bottom: 10px;
+        }
+      }
+      .coursesAction {
+        .coursesPrice {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+      a {
+        width: 110px;
+        height: 40px;
+        font-size: 13px;
+        line-height: 13px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .relatedcourses {
+    margin-bottom: 20px;
+    h2 {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 15px;
+    }
+    .coursesSection {
+      margin-bottom: 20px;
+      .coursesImg {
+        height: 150px;
+        margin-bottom: 10px;
+      }
+      .coursesTxt {
+        h3 {
+          font-size: 14px;
+          line-height: 18px;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 11px;
+          line-height: 18px;
+          margin-bottom: 10px;
+        }
+      }
+      .coursesAction {
+        .coursesPrice {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+      a {
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+        line-height: 13px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .relatedcourses {
+    margin-bottom: 20px;
+    h2 {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 15px;
+    }
+    .coursesSection {
+      margin-bottom: 20px;
+      .coursesImg {
+        height: 150px;
+        margin-bottom: 10px;
+      }
+      .coursesTxt {
+        h3 {
+          font-size: 14px;
+          line-height: 18px;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 11px;
+          line-height: 18px;
+          margin-bottom: 10px;
+        }
+      }
+      .coursesAction {
+        .coursesPrice {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+      a {
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+        line-height: 13px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .relatedcourses {
+    margin-bottom: 20px;
+    h2 {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 15px;
+    }
+    .coursesContent {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .coursesSection {
+      margin-bottom: 20px;
+      flex: 0 0 calc(50% - 10px);
+      .coursesImg {
+        height: 150px;
+        margin-bottom: 10px;
+      }
+      .coursesTxt {
+        h3 {
+          font-size: 14px;
+          line-height: 18px;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 11px;
+          line-height: 18px;
+          margin-bottom: 10px;
+        }
+      }
+      .coursesAction {
+        .coursesPrice {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+      a {
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+        line-height: 13px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .relatedcourses {
+    margin-bottom: 20px;
+    h2 {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 15px;
+    }
+    .coursesContent {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .coursesSection {
+      margin-bottom: 20px;
+      flex: 0 0 calc(50% - 10px);
+      .coursesImg {
+        height: 150px;
+        margin-bottom: 10px;
+      }
+      .coursesTxt {
+        h3 {
+          font-size: 14px;
+          line-height: 18px;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 11px;
+          line-height: 18px;
+          margin-bottom: 10px;
+        }
+      }
+      .coursesAction {
+        .coursesPrice {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+      a {
+        width: 90px;
+        height: 35px;
+        font-size: 12px;
+        line-height: 12px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .relatedcourses {
+    margin-bottom: 20px;
+    h2 {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 15px;
+    }
+    .coursesContent {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .coursesSection {
+      margin-bottom: 20px;
+      flex: 0 0 calc(50% - 10px);
+      .coursesImg {
+        height: 150px;
+        margin-bottom: 10px;
+      }
+      .coursesTxt {
+        h3 {
+          font-size: 13px;
+          line-height: 18px;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 11px;
+          line-height: 18px;
+          margin-bottom: 10px;
+        }
+      }
+      .coursesAction {
+        .coursesPrice {
+          font-size: 15px;
+          line-height: 22px;
+        }
+      }
+      a {
+        width: 90px;
+        height: 30px;
+        border-radius: 4px;
+        font-size: 11px;
+        line-height: 11px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .relatedcourses {
+    margin-bottom: 20px;
+    h2 {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 15px;
+    }
+    .coursesContent {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0px;
+    }
+    .coursesSection {
+      margin-bottom: 20px;
+      flex: 0 0 100%;
+      .coursesImg {
+        height: 150px;
+        margin-bottom: 10px;
+      }
+      .coursesTxt {
+        h3 {
+          font-size: 13px;
+          line-height: 18px;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 11px;
+          line-height: 18px;
+          margin-bottom: 10px;
+        }
+      }
+      .coursesAction {
+        .coursesPrice {
+          font-size: 15px;
+          line-height: 22px;
+        }
+      }
+      a {
+        width: 90px;
+        height: 30px;
+        border-radius: 4px;
+        font-size: 11px;
+        line-height: 11px;
+      }
+    }
+  }
+}

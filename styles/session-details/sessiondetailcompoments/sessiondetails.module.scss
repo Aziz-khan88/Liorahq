@@ -18,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 0px;
     .Enrolled {
       font-style: normal;
       font-weight: 600;
@@ -37,7 +38,7 @@
       font-style: normal;
       font-weight: 700;
       font-size: 36px;
-      line-height: 65px;
+      line-height: 32px;
       text-align: right;
       letter-spacing: -0.165px;
       color: #000000;
@@ -334,6 +335,1119 @@
                 &:hover {
                   background: #fff;
                   color: #1a76ff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .detailContainer {
+    padding: 15px;
+    margin-bottom: 20px;
+
+    .detailBanner {
+      height: 450px;
+    }
+    .enrolledSec {
+      padding: 20px 0px;
+      .Enrolled {
+        font-size: 13px;
+        line-height: 13px;
+        width: 120px;
+        height: 35px;
+      }
+      .Price {
+        font-size: 32px;
+        line-height: 32px;
+      }
+    }
+    .mainContent {
+      margin-bottom: 20px;
+      .title {
+        flex: 0 0 75%;
+        h3 {
+          font-size: 22px;
+          line-height: 28px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+      .action {
+        flex: 0 0 25%;
+        button {
+          height: 45px;
+          width: 130px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+      }
+    }
+    .specificationdSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+      ul {
+        gap: 5px;
+        li {
+          padding: 0px 20px;
+          height: 36px;
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+    }
+    .keypointSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      ul {
+        li {
+          font-size: 13px;
+          line-height: 18px;
+
+          svg {
+            height: 15px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    .accordianSec {
+      .tit {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .breakdownBox {
+        height: 70px;
+
+        .breakdownTitle {
+          height: 70px;
+          padding: 0px 20px;
+          .tit {
+            font-size: 15px;
+            line-height: 15px;
+          }
+          .count {
+            ul {
+              gap: 15px;
+              li {
+                font-size: 13px;
+                line-height: 20px;
+                &::after {
+                  left: -8px;
+                }
+              }
+            }
+          }
+        }
+        &.active {
+          opacity: 1;
+          height: auto;
+          .breakdownContent {
+            padding: 20px 20px 20px 20px;
+            .breakdownItem {
+              height: 100px;
+              padding: 5px;
+              .breakdownImg {
+                height: 80px;
+                flex: 0 0 80px;
+              }
+              .breakdownTxt {
+                flex: 0 0 calc(100% - 280px);
+                h5 {
+                  font-size: 13px;
+                  line-height: 16px;
+                }
+                p {
+                  font-size: 12px;
+                  line-height: 18px;
+                }
+              }
+              .breakdownbtn {
+                flex: 0 0 150px;
+                a {
+                  width: 120px;
+                  height: 40px;
+                  font-size: 12px;
+                  line-height: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .detailContainer {
+    padding: 15px;
+    margin-bottom: 20px;
+
+    .detailBanner {
+      height: 420px;
+    }
+    .enrolledSec {
+      padding: 20px 0px;
+      .Enrolled {
+        font-size: 13px;
+        line-height: 13px;
+        width: 120px;
+        height: 35px;
+      }
+      .Price {
+        font-size: 30px;
+        line-height: 30px;
+      }
+    }
+    .mainContent {
+      margin-bottom: 20px;
+      .title {
+        flex: 0 0 75%;
+        h3 {
+          font-size: 20px;
+          line-height: 28px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+      .action {
+        flex: 0 0 25%;
+        button {
+          height: 40px;
+          width: 120px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .specificationdSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+      ul {
+        gap: 5px;
+        li {
+          padding: 0px 20px;
+          height: 36px;
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+    }
+    .keypointSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      ul {
+        li {
+          font-size: 13px;
+          line-height: 18px;
+
+          svg {
+            height: 15px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    .accordianSec {
+      .tit {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .breakdownBox {
+        height: 70px;
+        .breakdownTitle {
+          height: 70px;
+          padding: 0px 20px;
+          .tit {
+            font-size: 15px;
+            line-height: 15px;
+          }
+          .count {
+            ul {
+              gap: 15px;
+              li {
+                font-size: 12px;
+                line-height: 20px;
+                &::after {
+                  left: -8px;
+                }
+                svg {
+                  width: auto;
+                  height: 8px;
+                }
+              }
+            }
+          }
+        }
+        &.active {
+          opacity: 1;
+          height: auto;
+          .breakdownContent {
+            padding: 20px 20px 20px 20px;
+            .breakdownItem {
+              height: 90px;
+              padding: 5px;
+              .breakdownImg {
+                height: 80px;
+                flex: 0 0 80px;
+                img {
+                  width: 80px;
+                  height: 80px;
+                }
+              }
+              .breakdownTxt {
+                flex: 0 0 calc(100% - 280px);
+                h5 {
+                  font-size: 13px;
+                  line-height: 16px;
+                }
+                p {
+                  font-size: 12px;
+                  line-height: 18px;
+                }
+              }
+              .breakdownbtn {
+                flex: 0 0 150px;
+                a {
+                  width: 110px;
+                  height: 35px;
+                  font-size: 11px;
+                  line-height: 11px;
+                  border-radius: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .detailContainer {
+    padding: 15px;
+    margin-bottom: 20px;
+
+    .detailBanner {
+      height: 400px;
+    }
+    .enrolledSec {
+      padding: 20px 0px;
+      .Enrolled {
+        font-size: 13px;
+        line-height: 13px;
+        width: 120px;
+        height: 35px;
+      }
+      .Price {
+        font-size: 26px;
+        line-height: 26px;
+      }
+    }
+    .mainContent {
+      margin-bottom: 20px;
+      .title {
+        flex: 0 0 75%;
+        h3 {
+          font-size: 18px;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+      .action {
+        flex: 0 0 25%;
+        button {
+          height: 40px;
+          width: 120px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .specificationdSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+      ul {
+        gap: 5px;
+        li {
+          padding: 0px 20px;
+          height: 36px;
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+    }
+    .keypointSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      ul {
+        li {
+          font-size: 13px;
+          line-height: 18px;
+
+          svg {
+            height: 15px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    .accordianSec {
+      .tit {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .breakdownBox {
+        height: 70px;
+        .breakdownTitle {
+          height: 70px;
+          padding: 0px 20px;
+          .tit {
+            font-size: 15px;
+            line-height: 15px;
+          }
+          .count {
+            ul {
+              gap: 15px;
+              li {
+                font-size: 12px;
+                line-height: 20px;
+                &::after {
+                  left: -8px;
+                }
+                svg {
+                  width: auto;
+                  height: 8px;
+                }
+              }
+            }
+          }
+        }
+        &.active {
+          opacity: 1;
+          height: auto;
+          .breakdownContent {
+            padding: 20px 20px 20px 20px;
+            .breakdownItem {
+              height: 90px;
+              padding: 5px;
+              .breakdownImg {
+                height: 80px;
+                flex: 0 0 80px;
+                img {
+                  width: 80px;
+                  height: 80px;
+                }
+              }
+              .breakdownTxt {
+                flex: 0 0 calc(100% - 260px);
+                h5 {
+                  font-size: 13px;
+                  line-height: 16px;
+                }
+                p {
+                  font-size: 12px;
+                  line-height: 18px;
+                }
+              }
+              .breakdownbtn {
+                flex: 0 0 150px;
+                a {
+                  width: 110px;
+                  height: 35px;
+                  font-size: 11px;
+                  line-height: 11px;
+                  border-radius: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .detailContainer {
+    padding: 15px;
+    margin-bottom: 20px;
+
+    .detailBanner {
+      height: 400px;
+    }
+    .enrolledSec {
+      padding: 20px 0px;
+      .Enrolled {
+        font-size: 13px;
+        line-height: 13px;
+        width: 120px;
+        height: 35px;
+      }
+      .Price {
+        font-size: 26px;
+        line-height: 26px;
+      }
+    }
+    .mainContent {
+      margin-bottom: 20px;
+      .title {
+        flex: 0 0 75%;
+        h3 {
+          font-size: 18px;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+      .action {
+        flex: 0 0 25%;
+        button {
+          height: 40px;
+          width: 120px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .specificationdSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+      ul {
+        gap: 5px;
+        li {
+          padding: 0px 20px;
+          height: 36px;
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+    }
+    .keypointSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      ul {
+        li {
+          font-size: 13px;
+          line-height: 18px;
+
+          svg {
+            height: 15px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    .accordianSec {
+      .tit {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .breakdownBox {
+        height: 70px;
+
+        .breakdownTitle {
+          height: 70px;
+          padding: 0px 20px;
+          .tit {
+            font-size: 15px;
+            line-height: 15px;
+          }
+          .count {
+            ul {
+              gap: 15px;
+              li {
+                font-size: 12px;
+                line-height: 20px;
+                &::after {
+                  left: -8px;
+                }
+                svg {
+                  width: auto;
+                  height: 8px;
+                }
+              }
+            }
+          }
+        }
+        &.active {
+          opacity: 1;
+          height: auto;
+          .breakdownContent {
+            padding: 20px 20px 20px 20px;
+            .breakdownItem {
+              height: 90px;
+              padding: 5px;
+              .breakdownImg {
+                height: 80px;
+                flex: 0 0 80px;
+                img {
+                  width: 80px;
+                  height: 80px;
+                }
+              }
+              .breakdownTxt {
+                flex: 0 0 calc(100% - 260px);
+                h5 {
+                  font-size: 13px;
+                  line-height: 16px;
+                }
+                p {
+                  font-size: 12px;
+                  line-height: 18px;
+                }
+              }
+              .breakdownbtn {
+                flex: 0 0 150px;
+                a {
+                  width: 110px;
+                  height: 35px;
+                  font-size: 11px;
+                  line-height: 11px;
+                  border-radius: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .detailContainer {
+    padding: 15px;
+    margin-bottom: 20px;
+
+    .detailBanner {
+      height: 260px;
+    }
+    .enrolledSec {
+      padding: 20px 0px;
+      .Enrolled {
+        font-size: 13px;
+        line-height: 13px;
+        width: 120px;
+        height: 35px;
+      }
+      .Price {
+        font-size: 26px;
+        line-height: 26px;
+      }
+    }
+    .mainContent {
+      margin-bottom: 20px;
+      .title {
+        flex: 0 0 75%;
+        h3 {
+          font-size: 18px;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+      .action {
+        flex: 0 0 25%;
+        button {
+          height: 40px;
+          width: 120px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .specificationdSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+      ul {
+        gap: 5px;
+        li {
+          padding: 0px 20px;
+          height: 36px;
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+    }
+    .keypointSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      ul {
+        li {
+          font-size: 13px;
+          line-height: 18px;
+
+          svg {
+            height: 15px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    .accordianSec {
+      .tit {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .breakdownBox {
+        height: 70px;
+
+        .breakdownTitle {
+          height: 70px;
+          padding: 0px 20px;
+          .tit {
+            font-size: 15px;
+            line-height: 15px;
+          }
+          .count {
+            ul {
+              gap: 15px;
+              li {
+                font-size: 12px;
+                line-height: 20px;
+                &::after {
+                  left: -8px;
+                }
+                svg {
+                  width: auto;
+                  height: 8px;
+                }
+              }
+            }
+          }
+        }
+        &.active {
+          opacity: 1;
+          height: auto;
+          .breakdownContent {
+            padding: 20px 20px 20px 20px;
+            .breakdownItem {
+              height: 80px;
+              padding: 5px;
+              .breakdownImg {
+                height: 60px;
+                flex: 0 0 60px;
+                img {
+                  width: 60px;
+                  height: 60px;
+                }
+              }
+              .breakdownTxt {
+                flex: 0 0 calc(100% - 170px);
+                h5 {
+                  font-size: 13px;
+                  line-height: 16px;
+                  margin-bottom: 0px;
+                }
+                p {
+                  font-size: 12px;
+                  line-height: 18px;
+                }
+              }
+              .breakdownbtn {
+                flex: 0 0 60px;
+                a {
+                  width: 80px;
+                  height: 35px;
+                  font-size: 11px;
+                  line-height: 11px;
+                  border-radius: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .detailContainer {
+    padding: 15px;
+    margin-bottom: 20px;
+
+    .detailBanner {
+      height: 360px;
+    }
+    .enrolledSec {
+      padding: 20px 0px;
+
+      .Enrolled {
+        font-size: 13px;
+        line-height: 13px;
+        width: 120px;
+        height: 35px;
+      }
+      .Price {
+        font-size: 26px;
+        line-height: 26px;
+      }
+    }
+    .mainContent {
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      .title {
+        flex: 0 0 100%;
+        h3 {
+          font-size: 18px;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+      .action {
+        flex: 0 0 100%;
+        button {
+          height: 40px;
+          width: 120px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .specificationdSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+      ul {
+        gap: 5px;
+        li {
+          padding: 0px 10px;
+          height: 30px;
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+    }
+    .keypointSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      ul {
+        li {
+          font-size: 13px;
+          line-height: 18px;
+
+          svg {
+            height: 15px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    .accordianSec {
+      .tit {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .breakdownBox {
+        height: auto;
+
+        .breakdownTitle {
+          height: auto;
+          padding: 20px 20px;
+          flex-wrap: wrap;
+          .tit {
+            font-size: 15px;
+            line-height: 15px;
+            flex: 0 0 100%;
+            margin-bottom: 10px;
+          }
+          .count {
+            flex: 0 0 100%;
+            ul {
+              gap: 15px;
+              li {
+                font-size: 12px;
+                line-height: 20px;
+                &::after {
+                  left: -8px;
+                }
+                svg {
+                  width: auto;
+                  height: 8px;
+                }
+              }
+            }
+          }
+        }
+        &.active {
+          opacity: 1;
+          height: auto;
+          .breakdownContent {
+            padding: 20px 20px 20px 20px;
+            .breakdownItem {
+              height: 70px;
+              padding: 5px;
+              .breakdownImg {
+                height: 60px;
+                flex: 0 0 60px;
+                img {
+                  width: 60px;
+                  height: 60px;
+                }
+              }
+              .breakdownTxt {
+                flex: 0 0 calc(100% - 170px);
+                h5 {
+                  font-size: 12px;
+                  line-height: 16px;
+                  margin-bottom: 0px;
+                }
+                p {
+                  font-size: 11px;
+                  line-height: 16px;
+                }
+              }
+              .breakdownbtn {
+                flex: 0 0 60px;
+                a {
+                  width: 80px;
+                  height: 30px;
+                  font-size: 11px;
+                  line-height: 11px;
+                  border-radius: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .detailContainer {
+    padding: 15px;
+    margin-bottom: 20px;
+
+    .detailBanner {
+      height: 250px;
+    }
+    .enrolledSec {
+      padding: 20px 0px;
+
+      .Enrolled {
+        font-size: 12px;
+        line-height: 13px;
+        width: 110px;
+        height: 30px;
+      }
+      .Price {
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+    .mainContent {
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      .title {
+        flex: 0 0 100%;
+        h3 {
+          font-size: 16px;
+          line-height: 22px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 12px;
+          line-height: 17px;
+        }
+      }
+      .action {
+        flex: 0 0 100%;
+        button {
+          height: 40px;
+          width: 120px;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .specificationdSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+      ul {
+        gap: 5px;
+        li {
+          padding: 0px 10px;
+          height: 30px;
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+    }
+    .keypointSec {
+      margin-bottom: 20px;
+      .tit {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      ul {
+        padding-left: 0px;
+        li {
+          font-size: 12px;
+          line-height: 18px;
+
+          svg {
+            height: 13px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    .accordianSec {
+      .tit {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .breakdownBox {
+        height: auto;
+        border: 0px;
+
+        .breakdownTitle {
+          height: auto;
+          padding: 20px 20px;
+          flex-wrap: wrap;
+          margin-bottom: 10px;
+          .tit {
+            font-size: 15px;
+            line-height: 15px;
+            flex: 0 0 100%;
+            margin-bottom: 10px;
+          }
+          .count {
+            flex: 0 0 100%;
+            ul {
+              gap: 10px;
+              flex-wrap: wrap;
+              li {
+                font-size: 12px;
+                line-height: 20px;
+                flex: 0 0 100%;
+                &::after {
+                  content: "";
+                  background: #798aa4;
+                  width: 100%;
+                  height: 1px;
+                  position: absolute;
+                  top: -5px;
+                  left: 0px;
+                  transform: translate(0, -50%);
+                }
+                svg {
+                  width: auto;
+                  height: 8px;
+                }
+              }
+            }
+          }
+        }
+        &.active {
+          opacity: 1;
+          height: auto;
+          .breakdownContent {
+            padding: 0;
+            max-height: 100%;
+
+            .breakdownItem {
+              height: auto;
+              padding: 20px;
+              flex-wrap: wrap;
+              .breakdownImg {
+                height: 60px;
+                flex: 0 0 60px;
+                margin-bottom: 10px;
+                img {
+                  width: 60px;
+                  height: 60px;
+                }
+              }
+              .breakdownTxt {
+                flex: 0 0 100%;
+                margin-bottom: 10px;
+                h5 {
+                  font-size: 13px;
+                  line-height: 16px;
+                  margin-bottom: 0px;
+                }
+                p {
+                  font-size: 12px;
+                  line-height: 16px;
+                }
+              }
+              .breakdownbtn {
+                flex: 0 0 60px;
+                a {
+                  width: 80px;
+                  height: 30px;
+                  font-size: 11px;
+                  line-height: 11px;
+                  border-radius: 5px;
                 }
               }
             }

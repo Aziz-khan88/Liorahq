@@ -148,3 +148,454 @@
     }
   }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .detailspostWapper {
+    margin-bottom: 20px;
+    .detailspostHeader {
+      margin-bottom: 10px;
+      .detailspostImg {
+        flex: 0 0 45px;
+        height: 45px;
+      }
+      .detailspostContent {
+        flex: 0 0 calc(100% - 180px);
+        h6 {
+          font-size: 14px;
+          line-height: 21px;
+          .star {
+            font-size: 12px;
+            line-height: 12px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .detailspostbtn {
+        flex: 0 0 100px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .detailspostTxt {
+      margin-top: 20px;
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .detailspostBanner {
+      height: 450px;
+    }
+    .detailspostSocial {
+      gap: 10px;
+      .socialItem {
+        font-size: 12px;
+        line-height: 15px;
+        height: 30px;
+        svg {
+          height: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .detailspostWapper {
+    margin-bottom: 20px;
+    .detailspostHeader {
+      margin-bottom: 10px;
+      .detailspostImg {
+        flex: 0 0 45px;
+        height: 45px;
+      }
+      .detailspostContent {
+        flex: 0 0 calc(100% - 180px);
+        h6 {
+          font-size: 14px;
+          line-height: 21px;
+          .star {
+            font-size: 12px;
+            line-height: 12px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .detailspostbtn {
+        flex: 0 0 100px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .detailspostTxt {
+      margin-top: 20px;
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .detailspostBanner {
+      height: 380px;
+    }
+    .detailspostSocial {
+      gap: 10px;
+      .socialItem {
+        font-size: 12px;
+        line-height: 15px;
+        height: 30px;
+        svg {
+          height: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .detailspostWapper {
+    margin-bottom: 20px;
+    .detailspostHeader {
+      margin-bottom: 10px;
+      .detailspostImg {
+        flex: 0 0 45px;
+        height: 45px;
+      }
+      .detailspostContent {
+        flex: 0 0 calc(100% - 180px);
+        h6 {
+          font-size: 14px;
+          line-height: 21px;
+          .star {
+            font-size: 12px;
+            line-height: 12px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .detailspostbtn {
+        flex: 0 0 100px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .detailspostTxt {
+      margin-top: 20px;
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .detailspostBanner {
+      height: 300px;
+    }
+    .detailspostSocial {
+      gap: 10px;
+      .socialItem {
+        font-size: 11px;
+        line-height: 15px;
+        height: 30px;
+        svg {
+          height: 15px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .detailspostWapper {
+    margin-bottom: 20px;
+    .detailspostHeader {
+      margin-bottom: 10px;
+      .detailspostImg {
+        flex: 0 0 40px;
+        height: 40px;
+      }
+      .detailspostContent {
+        flex: 0 0 calc(100% - 170px);
+        h6 {
+          font-size: 13px;
+          line-height: 13px;
+          .star {
+            font-size: 11px;
+            line-height: 11px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+      .detailspostbtn {
+        flex: 0 0 100px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .detailspostTxt {
+      margin-top: 20px;
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .detailspostBanner {
+      height: 220px;
+    }
+    .detailspostSocial {
+      gap: 10px;
+      .socialItem {
+        font-size: 11px;
+        line-height: 15px;
+        height: 30px;
+        svg {
+          height: 15px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .detailspostWapper {
+    margin-bottom: 20px;
+    .detailspostHeader {
+      margin-bottom: 10px;
+      .detailspostImg {
+        flex: 0 0 40px;
+        height: 40px;
+      }
+      .detailspostContent {
+        flex: 0 0 calc(100% - 170px);
+        h6 {
+          font-size: 13px;
+          line-height: 13px;
+          .star {
+            font-size: 11px;
+            line-height: 11px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+      .detailspostbtn {
+        flex: 0 0 100px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .detailspostTxt {
+      margin-top: 20px;
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .detailspostBanner {
+      height: 220px;
+    }
+    .detailspostSocial {
+      gap: 10px;
+      .socialItem {
+        font-size: 11px;
+        line-height: 15px;
+        height: 30px;
+        svg {
+          height: 15px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .detailspostWapper {
+    margin-bottom: 20px;
+    .detailspostHeader {
+      margin-bottom: 10px;
+      .detailspostImg {
+        flex: 0 0 40px;
+        height: 40px;
+      }
+      .detailspostContent {
+        flex: 0 0 calc(100% - 170px);
+        h6 {
+          font-size: 13px;
+          line-height: 13px;
+          .star {
+            font-size: 11px;
+            line-height: 11px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+      .detailspostbtn {
+        flex: 0 0 100px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .detailspostTxt {
+      margin-top: 20px;
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .detailspostBanner {
+      height: 220px;
+    }
+    .detailspostSocial {
+      gap: 10px;
+      .socialItem {
+        font-size: 11px;
+        line-height: 15px;
+        height: 30px;
+        svg {
+          height: 15px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .detailspostWapper {
+    margin-bottom: 20px;
+    .detailspostHeader {
+      margin-bottom: 10px;
+      .detailspostImg {
+        flex: 0 0 40px;
+        height: 40px;
+      }
+      .detailspostContent {
+        flex: 0 0 calc(100% - 100px);
+        h6 {
+          font-size: 13px;
+          line-height: 13px;
+          .star {
+            font-size: 11px;
+            line-height: 11px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+      .detailspostbtn {
+        flex: 0 0 30px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .detailspostTxt {
+      margin-top: 20px;
+      h5 {
+        font-size: 13px;
+        line-height: 20px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .detailspostBanner {
+      height: 200px;
+    }
+    .detailspostSocial {
+      gap: 5px;
+      flex-wrap: wrap;
+      .socialItem {
+        flex: 0 0 100%;
+        font-size: 11px;
+        line-height: 15px;
+        height: 30px;
+        svg {
+          height: 15px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

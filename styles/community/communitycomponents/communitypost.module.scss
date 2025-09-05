@@ -147,3 +147,472 @@
     }
   }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .communitypostWapper {
+    padding: 15px;
+    margin-bottom: 20px;
+    .communitypostHeader {
+      margin-bottom: 10px;
+      .communitypostImg {
+        flex: 0 0 45px;
+        height: 45px;
+      }
+      .communitypostContent {
+        flex: 0 0 calc(100% - 180px);
+        h6 {
+          font-size: 14px;
+          line-height: 21px;
+          .star {
+            font-size: 12px;
+            line-height: 12px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .communitypostbtn {
+        flex: 0 0 100px;
+      }
+    }
+    .communitypostTxt {
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .communitypostBanner {
+      height: 400px;
+      margin-bottom: 15px;
+    }
+    .communitypostSocial {
+      padding-top: 15px;
+      gap: 10px;
+      .socialItem {
+        font-size: 12px;
+        line-height: 15px;
+        height: 30px;
+        padding: 0px 10px;
+        svg {
+          height: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .communitypostWapper {
+    padding: 15px;
+    margin-bottom: 20px;
+    .communitypostHeader {
+      margin-bottom: 10px;
+      .communitypostImg {
+        flex: 0 0 45px;
+        height: 45px;
+      }
+      .communitypostContent {
+        flex: 0 0 calc(100% - 180px);
+        h6 {
+          font-size: 14px;
+          line-height: 21px;
+          .star {
+            font-size: 12px;
+            line-height: 12px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .communitypostbtn {
+        flex: 0 0 100px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .communitypostTxt {
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .communitypostBanner {
+      height: 400px;
+      margin-bottom: 15px;
+    }
+    .communitypostSocial {
+      padding-top: 15px;
+      gap: 10px;
+      .socialItem {
+        font-size: 12px;
+        line-height: 15px;
+        height: 30px;
+        padding: 0px 10px;
+        svg {
+          height: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .communitypostWapper {
+    padding: 15px;
+    margin-bottom: 20px;
+    .communitypostHeader {
+      margin-bottom: 10px;
+      .communitypostImg {
+        flex: 0 0 45px;
+        height: 45px;
+      }
+      .communitypostContent {
+        flex: 0 0 calc(100% - 180px);
+        h6 {
+          font-size: 14px;
+          line-height: 21px;
+          .star {
+            font-size: 12px;
+            line-height: 12px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .communitypostbtn {
+        flex: 0 0 100px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .communitypostTxt {
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .communitypostBanner {
+      height: 350px;
+      margin-bottom: 15px;
+    }
+    .communitypostSocial {
+      padding-top: 15px;
+      gap: 10px;
+      .socialItem {
+        font-size: 12px;
+        line-height: 15px;
+        height: 30px;
+        padding: 0px 10px;
+        svg {
+          height: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .communitypostWapper {
+    padding: 15px;
+    margin-bottom: 15px;
+    .communitypostHeader {
+      margin-bottom: 10px;
+      .communitypostImg {
+        flex: 0 0 45px;
+        height: 45px;
+      }
+      .communitypostContent {
+        flex: 0 0 calc(100% - 180px);
+        h6 {
+          font-size: 14px;
+          line-height: 21px;
+          .star {
+            font-size: 12px;
+            line-height: 12px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .communitypostbtn {
+        flex: 0 0 100px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .communitypostTxt {
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .communitypostBanner {
+      height: 320px;
+      margin-bottom: 15px;
+    }
+    .communitypostSocial {
+      padding-top: 15px;
+      gap: 10px;
+      .socialItem {
+        font-size: 11px;
+        line-height: 11px;
+        height: 30px;
+        padding: 0px 10px;
+        svg {
+          height: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .communitypostWapper {
+    padding: 15px;
+    margin-bottom: 15px;
+    .communitypostHeader {
+      margin-bottom: 10px;
+      .communitypostImg {
+        flex: 0 0 45px;
+        height: 45px;
+      }
+      .communitypostContent {
+        flex: 0 0 calc(100% - 180px);
+        h6 {
+          font-size: 14px;
+          line-height: 21px;
+          .star {
+            font-size: 12px;
+            line-height: 12px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .communitypostbtn {
+        flex: 0 0 100px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .communitypostTxt {
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .communitypostBanner {
+      height: 320px;
+      margin-bottom: 15px;
+    }
+    .communitypostSocial {
+      padding-top: 15px;
+      gap: 10px;
+      .socialItem {
+        font-size: 11px;
+        line-height: 11px;
+        height: 30px;
+        padding: 0px 10px;
+        svg {
+          height: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .communitypostWapper {
+    padding: 15px;
+    margin-bottom: 15px;
+    .communitypostHeader {
+      margin-bottom: 10px;
+      .communitypostImg {
+        flex: 0 0 45px;
+        height: 45px;
+      }
+      .communitypostContent {
+        flex: 0 0 calc(100% - 180px);
+        h6 {
+          font-size: 14px;
+          line-height: 21px;
+          .star {
+            font-size: 12px;
+            line-height: 12px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+        }
+        .date {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .communitypostbtn {
+        flex: 0 0 100px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .communitypostTxt {
+      h5 {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .communitypostBanner {
+      height: 320px;
+      margin-bottom: 15px;
+    }
+    .communitypostSocial {
+      padding-top: 15px;
+      gap: 10px;
+      .socialItem {
+        font-size: 11px;
+        line-height: 11px;
+        height: 30px;
+        padding: 0px 10px;
+        svg {
+          height: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .communitypostWapper {
+    padding: 15px;
+    margin-bottom: 15px;
+    .communitypostHeader {
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+      .communitypostImg {
+        flex: 0 0 40px;
+        height: 40px;
+      }
+      .communitypostContent {
+        flex: 0 0 calc(100% - 120px);
+        h6 {
+          font-size: 13px;
+          line-height: 13px;
+          .star {
+            font-size: 11px;
+            line-height: 12px;
+            svg {
+              margin-right: 3px;
+            }
+          }
+        }
+        .date {
+          font-size: 11px;
+          line-height: 11px;
+        }
+      }
+      .communitypostbtn {
+        flex: 0 0 50px;
+        svg {
+          width: auto;
+          height: 15px;
+        }
+      }
+    }
+    .communitypostTxt {
+      h5 {
+        font-size: 13px;
+        line-height: 22px;
+      }
+      p {
+        font-size: 11px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    .communitypostBanner {
+      height: 220px;
+      margin-bottom: 15px;
+    }
+    .communitypostSocial {
+      padding-top: 15px;
+      gap: 5px;
+      flex-wrap: wrap;
+      .socialItem {
+        font-size: 11px;
+        line-height: 11px;
+        height: 30px;
+        padding: 0px 10px;
+        flex: 0 0 100%;
+        svg {
+          height: 15px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
