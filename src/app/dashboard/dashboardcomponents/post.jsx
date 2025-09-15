@@ -30,8 +30,8 @@ const Post = () => {
                     </Link>
                 </div>
                 <div className={styles.postSocial}>
-                    <div className={styles.socialItem}><HeartIcon /><span>42 </span> likes</div>
-                    <div className={styles.socialItem}><CommentsIcon /><span>10 </span> Comments</div>
+                    <div className={styles.socialItem}><HeartIcon />42 likes</div>
+                    <div className={styles.socialItem}><CommentsIcon />10 Comments</div>
                     <div className={styles.socialItem}><ShareIcon />Share</div>
                 </div>
 
@@ -55,8 +55,8 @@ const Post = () => {
                     <Image src={Post02.src} alt="Profile Image" fill />
                 </div>
                 <div className={styles.postSocial}>
-                    <div className={styles.socialItem}><HeartIcon /><span>42 </span> likes</div>
-                    <div className={styles.socialItem}><CommentsIcon /><span>10 </span> Comments</div>
+                    <div className={styles.socialItem}><HeartIcon />42 likes</div>
+                    <div className={styles.socialItem}><CommentsIcon />10 Comments</div>
                     <div className={styles.socialItem}><ShareIcon />Share</div>
                 </div>
 
@@ -80,8 +80,8 @@ const Post = () => {
                     <Image src={Post01.src} alt="Profile Image" fill />
                 </div>
                 <div className={styles.postSocial}>
-                    <div className={styles.socialItem}><HeartIcon /><span>42 </span> likes</div>
-                    <div className={styles.socialItem}><CommentsIcon /><span>10 </span> Comments</div>
+                    <div className={styles.socialItem}><HeartIcon />42 likes</div>
+                    <div className={styles.socialItem}><CommentsIcon />10 Comments</div>
                     <div className={styles.socialItem}><ShareIcon />Share</div>
                 </div>
 
