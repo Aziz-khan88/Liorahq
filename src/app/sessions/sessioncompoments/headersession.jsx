@@ -68,6 +68,15 @@ const HeaderSession = ({ title }) => {
                             <Link href="/post-details">Post</Link>
                         </li>
                     </ul >
+                ) : title === "Edit Profile" ? (
+                    <ul className={styles.newPost}>
+                        <li>
+                            <button>Cancel</button>
+                        </li>
+                        <li>
+                            <Link href="/profile">Save</Link>
+                        </li>
+                    </ul >
                 ) : (
                     ""
                 )}

@@ -23,7 +23,10 @@ const ConditionalLayout = ({ children }) => {
         "/terms-and-conditions",
         "/privacy-policy",
         "/create-post",
-        "/session-assessment"
+        "/session-assessment",
+        "/profile",
+        "/edit-profile",
+        "/session-video"
     ];
 
     const isAuthPage = authRoutes.includes(pathname);

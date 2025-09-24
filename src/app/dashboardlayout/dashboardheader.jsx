@@ -100,7 +100,7 @@ const DashboardHeader = () => {
                     <div className={`${styles.dropDownProfile}`}>
                         <ul className={styles.toggleProfile}>
                             <li>
-                                <Link href="#"><ProfileIcon />View Profile</Link>
+                                <Link href="/profile"><ProfileIcon />View Profile</Link>
                             </li>
                             <li>
                                 <Link href="/sign-in"><LogoutIcon />Logout</Link>

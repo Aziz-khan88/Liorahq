@@ -5,6 +5,9 @@
   border-radius: 12px;
   padding: 15px;
   margin-bottom: 20px;
+  h5 {
+    margin-bottom: 20px;
+  }
   ul {
     li {
       background: #ffffff;
@@ -44,6 +47,116 @@
       }
     }
   }
+  .profileView {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .profileImage {
+      position: relative;
+      width: 179px;
+      height: 179px;
+      border-radius: 100%;
+      margin-bottom: 10px;
+      img {
+        border-radius: 100%;
+      }
+      .profileIcon {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+
+        input {
+          font-size: 0px;
+          background: transparent;
+          opacity: 0;
+          height: 45px;
+          width: 45px;
+          position: absolute;
+          z-index: 9;
+          cursor: pointer;
+          border-radius: 100px;
+        }
+        svg {
+          border-radius: 100px;
+          height: 45px;
+          width: 45px;
+        }
+      }
+    }
+    h3 {
+      margin-bottom: 10px;
+    }
+    .btnEdit {
+      min-width: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      border-radius: 5px;
+      border: 1px solid #0d6efd;
+      font-size: 15px;
+      &:hover {
+        background: #0d6efd;
+        color: #fff;
+      }
+    }
+  }
+  .editProfileWapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 30px 20px;
+    .editProFiled {
+      flex: 0 0 calc(100% / 3 - 15px);
+      margin-bottom: 25px;
+      label {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        color: #798aa4;
+      }
+      input {
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid #798aa4;
+        outline: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        padding: 0px 10px;
+      }
+      select {
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid #798aa4;
+        outline: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        padding: 0px 10px;
+        option {
+          height: 50px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -66,6 +179,51 @@
             width: auto;
             height: 8px;
           }
+        }
+      }
+    }
+    .profileView {
+      padding: 30px;
+      .profileImage {
+        width: 160px;
+        height: 160px;
+        .profileIcon {
+          input {
+            height: 40px;
+            width: 40px;
+          }
+          svg {
+            height: 40px;
+            width: 40px;
+          }
+        }
+      }
+      .btnEdit {
+        min-width: 130px;
+        height: 40px;
+        font-size: 14px;
+      }
+    }
+    .editProfileWapper {
+      gap: 15px;
+      padding: 30px 20px;
+      .editProFiled {
+        flex: 0 0 calc(100% / 3 - 15px);
+        margin-bottom: 25px;
+        label {
+          font-size: 14px;
+          line-height: 18px;
+        }
+        input {
+          height: 50px;
+          font-size: 14px;
+          line-height: 14px;
+        }
+        select {
+          width: 100%;
+          height: 50px;
+          font-size: 14px;
+          line-height: 14px;
         }
       }
     }
@@ -94,6 +252,51 @@
         }
       }
     }
+    .profileView {
+      padding: 25px;
+      .profileImage {
+        width: 150px;
+        height: 150px;
+        .profileIcon {
+          input {
+            height: 35px;
+            width: 35px;
+          }
+          svg {
+            height: 35px;
+            width: 35px;
+          }
+        }
+      }
+      .btnEdit {
+        min-width: 120px;
+        height: 35px;
+        font-size: 13px;
+      }
+    }
+    .editProfileWapper {
+      gap: 10px;
+      padding: 30px 20px;
+      .editProFiled {
+        flex: 0 0 calc(100% / 3 - 15px);
+        margin-bottom: 20px;
+        label {
+          font-size: 13px;
+          line-height: 18px;
+        }
+        input {
+          height: 50px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+        select {
+          width: 100%;
+          height: 50px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+      }
+    }
   }
 }
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
@@ -116,6 +319,51 @@
             width: auto;
             height: 8px;
           }
+        }
+      }
+    }
+    .profileView {
+      padding: 25px;
+      .profileImage {
+        width: 150px;
+        height: 150px;
+        .profileIcon {
+          input {
+            height: 35px;
+            width: 35px;
+          }
+          svg {
+            height: 35px;
+            width: 35px;
+          }
+        }
+      }
+      .btnEdit {
+        min-width: 120px;
+        height: 35px;
+        font-size: 13px;
+      }
+    }
+    .editProfileWapper {
+      gap: 10px;
+      padding: 20px 10px;
+      .editProFiled {
+        flex: 0 0 calc(100% / 3 - 15px);
+        margin-bottom: 20px;
+        label {
+          font-size: 13px;
+          line-height: 18px;
+        }
+        input {
+          height: 50px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+        select {
+          width: 100%;
+          height: 50px;
+          font-size: 13px;
+          line-height: 13px;
         }
       }
     }
@@ -144,6 +392,54 @@
         }
       }
     }
+    .profileView {
+      padding: 25px;
+      .profileImage {
+        width: 130px;
+        height: 130px;
+        .profileIcon {
+          input {
+            height: 35px;
+            width: 35px;
+          }
+          svg {
+            height: 35px;
+            width: 35px;
+          }
+        }
+      }
+      h3 {
+        font-size: 22px;
+      }
+      .btnEdit {
+        min-width: 120px;
+        height: 35px;
+        font-size: 13px;
+      }
+    }
+    .editProfileWapper {
+      gap: 10px;
+      padding: 20px 10px;
+      .editProFiled {
+        flex: 0 0 calc(100% / 3 - 15px);
+        margin-bottom: 20px;
+        label {
+          font-size: 13px;
+          line-height: 18px;
+        }
+        input {
+          height: 50px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+        select {
+          width: 100%;
+          height: 50px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+      }
+    }
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 899px) {
@@ -166,6 +462,54 @@
             width: auto;
             height: 6px;
           }
+        }
+      }
+    }
+    .profileView {
+      padding: 25px;
+      .profileImage {
+        width: 100px;
+        height: 100px;
+        .profileIcon {
+          input {
+            height: 30px;
+            width: 30px;
+          }
+          svg {
+            height: 30px;
+            width: 30px;
+          }
+        }
+      }
+      h3 {
+        font-size: 20px;
+      }
+      .btnEdit {
+        min-width: 110px;
+        height: 35px;
+        font-size: 13px;
+      }
+    }
+    .editProfileWapper {
+      gap: 10px;
+      padding: 20px 10px;
+      .editProFiled {
+        flex: 0 0 calc(100% / 2 - 15px);
+        margin-bottom: 10px;
+        label {
+          font-size: 13px;
+          line-height: 18px;
+        }
+        input {
+          height: 45px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+        select {
+          width: 100%;
+          height: 45px;
+          font-size: 13px;
+          line-height: 13px;
         }
       }
     }
@@ -194,6 +538,54 @@
         }
       }
     }
+    .profileView {
+      padding: 25px;
+      .profileImage {
+        width: 100px;
+        height: 100px;
+        .profileIcon {
+          input {
+            height: 30px;
+            width: 30px;
+          }
+          svg {
+            height: 30px;
+            width: 30px;
+          }
+        }
+      }
+      h3 {
+        font-size: 20px;
+      }
+      .btnEdit {
+        min-width: 110px;
+        height: 35px;
+        font-size: 13px;
+      }
+    }
+    .editProfileWapper {
+      gap: 10px;
+      padding: 20px 10px;
+      .editProFiled {
+        flex: 0 0 calc(100% / 2 - 15px);
+        margin-bottom: 10px;
+        label {
+          font-size: 13px;
+          line-height: 18px;
+        }
+        input {
+          height: 45px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+        select {
+          width: 100%;
+          height: 45px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+      }
+    }
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
@@ -216,6 +608,54 @@
             width: auto;
             height: 6px;
           }
+        }
+      }
+    }
+    .profileView {
+      padding: 25px;
+      .profileImage {
+        width: 100px;
+        height: 100px;
+        .profileIcon {
+          input {
+            height: 30px;
+            width: 30px;
+          }
+          svg {
+            height: 30px;
+            width: 30px;
+          }
+        }
+      }
+      h3 {
+        font-size: 20px;
+      }
+      .btnEdit {
+        min-width: 110px;
+        height: 35px;
+        font-size: 13px;
+      }
+    }
+    .editProfileWapper {
+      gap: 10px;
+      padding: 20px 0px;
+      .editProFiled {
+        flex: 0 0 calc(100% / 1 - 0px);
+        margin-bottom: 0px;
+        label {
+          font-size: 13px;
+          line-height: 18px;
+        }
+        input {
+          height: 45px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+        select {
+          width: 100%;
+          height: 45px;
+          font-size: 13px;
+          line-height: 13px;
         }
       }
     }

@@ -1,0 +1,1355 @@
+.popUpWraper {
+  display: flex;
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  height: 550px;
+  position: relative;
+  flex-wrap: wrap;
+  .clanderBox {
+    flex: 0 0 50%;
+  }
+  .timeSlot {
+    flex: 0 0 50%;
+    padding: 0px 0px 0px 30px;
+    h5 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: -0.165px;
+      color: #000000;
+    }
+    .timingCalender {
+      height: 350px;
+      overflow: auto;
+      padding-right: 20px;
+      &::-webkit-scrollbar {
+        width: 4px;
+      }
+
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: #798aa430;
+      }
+      .titName {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 10px;
+        letter-spacing: -0.165px;
+        color: #000000;
+      }
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        li {
+          background: #ffffff;
+          border: 1px solid #798aa4;
+          border-radius: 9px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 16px;
+          text-align: center;
+          letter-spacing: -0.189323px;
+          color: #798aa4;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 40px;
+          padding: 0px 10px;
+          flex: 0 0 calc(100% / 2 - 5px);
+          width: auto;
+          margin-bottom: 10px;
+          cursor: pointer;
+          &:hover {
+            border: 1px solid #1a76ff;
+            color: #000;
+          }
+          &.active {
+            border: 1px solid #1a76ff;
+            color: #000;
+          }
+          &.booked {
+            background: #d9d9d9;
+            border: 1px solid #d9d9d9;
+            &:hover {
+              color: #798aa4;
+            }
+          }
+        }
+      }
+    }
+  }
+  .closedBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+
+    svg {
+      width: auto;
+      height: 30px;
+
+      circle {
+        fill: #000;
+      }
+
+      path {
+        fill: #fff;
+      }
+    }
+  }
+  .popFooter {
+    margin-top: 20px;
+    flex: 0 0 100%;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 20px;
+    gap: 10px;
+    .btnBox {
+      text-align: center;
+      letter-spacing: -0.165px;
+      color: #1a76ff;
+      background: none;
+      border: 1px solid #1a76ff;
+      border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+      width: 120px;
+      height: 45px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 14px;
+      transition: all 0.3s ease-in-out;
+      display: flex;
+      cursor: pointer;
+      &:last-child {
+        background: #1a76ff;
+        color: #fff;
+      }
+    }
+  }
+}
+.popUpPayment {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  height: 400px;
+  position: relative;
+  width: 100%;
+  h5 {
+    letter-spacing: -0.165px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .closedBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    svg {
+      width: auto;
+      height: 25px;
+
+      circle {
+        fill: #000;
+      }
+
+      path {
+        fill: #fff;
+      }
+    }
+  }
+  .paymentList {
+    position: relative;
+    display: flex;
+    background: rgb(215, 218, 226, 0.5);
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    .cardImg {
+      position: relative;
+      flex: 0 0 90px;
+      height: 70px;
+      background: #fff;
+      border-radius: 10px;
+      img {
+        height: 20px;
+        object-fit: none;
+      }
+    }
+    .cardContent {
+      flex: 0 0 calc(100% - 140px);
+      .name {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: -0.125816px;
+        color: #000000;
+      }
+      .number {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 25px;
+        letter-spacing: -0.125816px;
+        color: #000000;
+      }
+      .expiry {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: -0.125816px;
+        color: #000000;
+        opacity: 0.5;
+      }
+    }
+    .cardCheck {
+      flex-wrap: 0 0 30px;
+      input {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 2;
+      }
+      label {
+        &::after {
+          content: "";
+          border: 2px solid #798aa4;
+          width: 24px;
+          height: 24px;
+          border-radius: 100%;
+          position: absolute;
+          right: 20px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        &::before {
+          content: "";
+          background: transparent;
+          width: 16px;
+          height: 16px;
+          border-radius: 100%;
+          position: absolute;
+          right: 24px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+
+      input:checked ~ label::before {
+        background: #1a76ff;
+      }
+      input:checked ~ label::after {
+        border-color: #1a76ff;
+      }
+
+      input:checked ~ label {
+        color: #fff;
+      }
+
+      input:checked ~ .inputRadio {
+        background: #1a76ff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+  .btnPayment {
+    border: 0px;
+    background: rgba(13, 206, 184, 0.1);
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.165px;
+    justify-content: center;
+    color: #0dceb8;
+    width: 100%;
+    height: 50px;
+  }
+  .popFooter {
+    margin-top: 20px;
+    flex: 0 0 100%;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    .btnBox {
+      text-align: center;
+      letter-spacing: -0.165px;
+      color: #1a76ff;
+      background: none;
+      border: 1px solid #1a76ff;
+      border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+      width: 120px;
+      height: 45px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 14px;
+      transition: all 0.3s ease-in-out;
+      display: flex;
+      cursor: pointer;
+      &:last-child {
+        background: #1a76ff;
+        color: #fff;
+      }
+    }
+  }
+  .paymentFields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .fieldGroup {
+      flex: 0 0 100%;
+      margin-bottom: 10px;
+      label {
+        width: 100%;
+        display: block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #798aa4;
+        margin-bottom: 10px;
+      }
+      input {
+        background: rgba(121, 138, 164, 0.25);
+        border-radius: 8px;
+        border: 0px;
+        height: 50px;
+        width: 100%;
+        padding: 0px 10px;
+        outline: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+      }
+      &:nth-last-child(2),
+      &:nth-last-child(3) {
+        flex: 0 0 calc(100% / 2 - 10px);
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .popUpWraper {
+    padding: 25px;
+    height: 510px;
+    .clanderBox {
+      flex: 0 0 50%;
+    }
+    .timeSlot {
+      flex: 0 0 50%;
+      padding: 0px 0px 0px 30px;
+      h5 {
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .timingCalender {
+        height: 340px;
+        padding-right: 20px;
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+        .titName {
+          font-size: 12px;
+          line-height: 16px;
+        }
+        ul {
+          margin-bottom: 20px;
+          li {
+            font-size: 13px;
+            line-height: 15px;
+            height: 35px;
+          }
+        }
+      }
+    }
+    .closedBtn {
+      svg {
+        height: 25px;
+      }
+    }
+    .popFooter {
+      margin-top: 20px;
+      height: 55px;
+      padding: 0px 20px;
+      gap: 10px;
+      .btnBox {
+        width: 110px;
+        height: 40px;
+        font-size: 13px;
+      }
+    }
+  }
+  .popUpPayment {
+    padding: 20px;
+    height: 380px;
+    h5 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .closedBtn {
+      top: 18px;
+      right: 18px;
+      svg {
+        width: auto;
+        height: 25px;
+      }
+    }
+    .paymentList {
+      .cardImg {
+        flex: 0 0 90px;
+        height: 70px;
+        background: #fff;
+        border-radius: 10px;
+        img {
+          height: 30px;
+        }
+      }
+      .cardContent {
+        flex: 0 0 calc(100% - 140px);
+        .name {
+          font-size: 12px;
+          line-height: 18px;
+        }
+        .number {
+          font-size: 13px;
+          line-height: 25px;
+        }
+        .expiry {
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+      .cardCheck {
+        flex-wrap: 0 0 30px;
+        label {
+          &::after {
+            width: 24px;
+            height: 24px;
+          }
+          &::before {
+            width: 16px;
+            height: 16px;
+            right: 24px;
+          }
+        }
+      }
+    }
+    .btnPayment {
+      font-size: 14px;
+      line-height: 14px;
+      height: 50px;
+    }
+    .popFooter {
+      margin-top: 20px;
+      height: 60px;
+      .btnBox {
+        width: 120px;
+        height: 45px;
+        font-size: 14px;
+      }
+    }
+    .paymentFields {
+      .fieldGroup {
+        label {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        input {
+          height: 50px;
+          width: 100%;
+          font-size: 14px;
+        }
+        &:nth-last-child(2),
+        &:nth-last-child(3) {
+          flex: 0 0 calc(100% / 2 - 10px);
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .popUpWraper {
+    padding: 25px;
+    height: 510px;
+    .clanderBox {
+      flex: 0 0 50%;
+    }
+    .timeSlot {
+      flex: 0 0 50%;
+      padding: 0px 0px 0px 30px;
+      h5 {
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .timingCalender {
+        height: 340px;
+        padding-right: 20px;
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+        .titName {
+          font-size: 12px;
+          line-height: 16px;
+        }
+        ul {
+          margin-bottom: 20px;
+          li {
+            font-size: 13px;
+            line-height: 15px;
+            height: 35px;
+          }
+        }
+      }
+    }
+    .closedBtn {
+      svg {
+        height: 25px;
+      }
+    }
+    .popFooter {
+      margin-top: 20px;
+      height: 55px;
+      padding: 0px 20px;
+      gap: 10px;
+      .btnBox {
+        width: 110px;
+        height: 40px;
+        font-size: 13px;
+      }
+    }
+  }
+  .popUpPayment {
+    padding: 20px;
+    height: 380px;
+    h5 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .closedBtn {
+      top: 18px;
+      right: 18px;
+      svg {
+        width: auto;
+        height: 25px;
+      }
+    }
+    .paymentList {
+      .cardImg {
+        flex: 0 0 90px;
+        height: 70px;
+        background: #fff;
+        border-radius: 10px;
+        img {
+          height: 30px;
+        }
+      }
+      .cardContent {
+        flex: 0 0 calc(100% - 140px);
+        .name {
+          font-size: 12px;
+          line-height: 18px;
+        }
+        .number {
+          font-size: 13px;
+          line-height: 25px;
+        }
+        .expiry {
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+      .cardCheck {
+        flex-wrap: 0 0 30px;
+        label {
+          &::after {
+            width: 24px;
+            height: 24px;
+          }
+          &::before {
+            width: 16px;
+            height: 16px;
+            right: 24px;
+          }
+        }
+      }
+    }
+    .btnPayment {
+      font-size: 14px;
+      line-height: 14px;
+      height: 50px;
+    }
+    .popFooter {
+      margin-top: 20px;
+      height: 60px;
+      .btnBox {
+        width: 120px;
+        height: 45px;
+        font-size: 14px;
+      }
+    }
+    .paymentFields {
+      .fieldGroup {
+        label {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        input {
+          height: 50px;
+          width: 100%;
+          font-size: 14px;
+        }
+        &:nth-last-child(2),
+        &:nth-last-child(3) {
+          flex: 0 0 calc(100% / 2 - 10px);
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .popUpWraper {
+    padding: 20px;
+    height: 460px;
+    .clanderBox {
+      flex: 0 0 50%;
+    }
+    .timeSlot {
+      flex: 0 0 50%;
+      padding: 0px 0px 0px 30px;
+      h5 {
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .timingCalender {
+        height: 300px;
+        padding-right: 20px;
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+        .titName {
+          font-size: 12px;
+          line-height: 16px;
+        }
+        ul {
+          margin-bottom: 10px;
+          li {
+            font-size: 13px;
+            line-height: 15px;
+            height: 35px;
+          }
+        }
+      }
+    }
+    .closedBtn {
+      svg {
+        height: 25px;
+      }
+    }
+    .popFooter {
+      margin-top: 15px;
+      height: 50px;
+      padding: 0px 20px;
+      gap: 10px;
+      .btnBox {
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+      }
+    }
+  }
+  .popUpPayment {
+    padding: 20px;
+    height: 380px;
+    h5 {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .closedBtn {
+      top: 18px;
+      right: 18px;
+      svg {
+        width: auto;
+        height: 25px;
+      }
+    }
+    .paymentList {
+      .cardImg {
+        flex: 0 0 90px;
+        height: 60px;
+        background: #fff;
+        border-radius: 10px;
+        img {
+          height: 30px;
+        }
+      }
+      .cardContent {
+        flex: 0 0 calc(100% - 140px);
+        .name {
+          font-size: 12px;
+          line-height: 18px;
+        }
+        .number {
+          font-size: 13px;
+          line-height: 25px;
+        }
+        .expiry {
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+      .cardCheck {
+        flex-wrap: 0 0 30px;
+        label {
+          &::after {
+            width: 22px;
+            height: 22px;
+          }
+          &::before {
+            width: 14px;
+            height: 14px;
+            right: 24px;
+          }
+        }
+      }
+    }
+    .btnPayment {
+      font-size: 13px;
+      line-height: 13px;
+      height: 45px;
+    }
+    .popFooter {
+      margin-top: 10px;
+      height: 50px;
+      .btnBox {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+      }
+    }
+    .paymentFields {
+      .fieldGroup {
+        label {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        input {
+          height: 45px;
+          width: 100%;
+          font-size: 13px;
+        }
+        &:nth-last-child(2),
+        &:nth-last-child(3) {
+          flex: 0 0 calc(100% / 2 - 10px);
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .popUpWraper {
+    padding: 20px;
+    height: 460px;
+    .clanderBox {
+      flex: 0 0 50%;
+    }
+    .timeSlot {
+      flex: 0 0 50%;
+      padding: 0px 0px 0px 30px;
+      h5 {
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .timingCalender {
+        height: 300px;
+        padding-right: 20px;
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+        .titName {
+          font-size: 12px;
+          line-height: 16px;
+        }
+        ul {
+          margin-bottom: 10px;
+          li {
+            font-size: 13px;
+            line-height: 15px;
+            height: 35px;
+          }
+        }
+      }
+    }
+    .closedBtn {
+      svg {
+        height: 25px;
+      }
+    }
+    .popFooter {
+      margin-top: 15px;
+      height: 50px;
+      padding: 0px 20px;
+      gap: 10px;
+      .btnBox {
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+      }
+    }
+  }
+  .popUpPayment {
+    padding: 20px;
+    height: 380px;
+    h5 {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .closedBtn {
+      top: 18px;
+      right: 18px;
+      svg {
+        width: auto;
+        height: 25px;
+      }
+    }
+    .paymentList {
+      .cardImg {
+        flex: 0 0 90px;
+        height: 60px;
+        background: #fff;
+        border-radius: 10px;
+        img {
+          height: 30px;
+        }
+      }
+      .cardContent {
+        flex: 0 0 calc(100% - 140px);
+        .name {
+          font-size: 12px;
+          line-height: 18px;
+        }
+        .number {
+          font-size: 13px;
+          line-height: 25px;
+        }
+        .expiry {
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+      .cardCheck {
+        flex-wrap: 0 0 30px;
+        label {
+          &::after {
+            width: 22px;
+            height: 22px;
+          }
+          &::before {
+            width: 14px;
+            height: 14px;
+            right: 24px;
+          }
+        }
+      }
+    }
+    .btnPayment {
+      font-size: 13px;
+      line-height: 13px;
+      height: 45px;
+    }
+    .popFooter {
+      margin-top: 10px;
+      height: 50px;
+      .btnBox {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+      }
+    }
+    .paymentFields {
+      .fieldGroup {
+        label {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        input {
+          height: 45px;
+          width: 100%;
+          font-size: 13px;
+        }
+        &:nth-last-child(2),
+        &:nth-last-child(3) {
+          flex: 0 0 calc(100% / 2 - 10px);
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .popUpWraper {
+    padding: 20px;
+    height: 420px;
+    .clanderBox {
+      flex: 0 0 50%;
+    }
+    .timeSlot {
+      flex: 0 0 50%;
+      padding: 0px 0px 0px 20px;
+      h5 {
+        font-size: 18px;
+        line-height: 25px;
+      }
+      .timingCalender {
+        height: 260px;
+        padding-right: 20px;
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+        .titName {
+          font-size: 12px;
+          line-height: 16px;
+        }
+        ul {
+          margin-bottom: 10px;
+          li {
+            font-size: 13px;
+            line-height: 15px;
+            height: 30px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+    .closedBtn {
+      svg {
+        height: 25px;
+      }
+    }
+    .popFooter {
+      margin-top: 15px;
+      height: 50px;
+      padding: 0px 20px;
+      gap: 10px;
+      .btnBox {
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+      }
+    }
+  }
+  .popUpPayment {
+    padding: 20px;
+    height: 380px;
+    h5 {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .closedBtn {
+      top: 18px;
+      right: 18px;
+      svg {
+        width: auto;
+        height: 25px;
+      }
+    }
+    .paymentList {
+      .cardImg {
+        flex: 0 0 90px;
+        height: 60px;
+        background: #fff;
+        border-radius: 10px;
+        img {
+          height: 30px;
+        }
+      }
+      .cardContent {
+        flex: 0 0 calc(100% - 140px);
+        .name {
+          font-size: 12px;
+          line-height: 18px;
+        }
+        .number {
+          font-size: 13px;
+          line-height: 25px;
+        }
+        .expiry {
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+      .cardCheck {
+        flex-wrap: 0 0 30px;
+        label {
+          &::after {
+            width: 22px;
+            height: 22px;
+          }
+          &::before {
+            width: 14px;
+            height: 14px;
+            right: 24px;
+          }
+        }
+      }
+    }
+    .btnPayment {
+      font-size: 13px;
+      line-height: 13px;
+      height: 45px;
+    }
+    .popFooter {
+      margin-top: 10px;
+      height: 50px;
+      .btnBox {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+      }
+    }
+    .paymentFields {
+      .fieldGroup {
+        label {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        input {
+          height: 45px;
+          width: 100%;
+          font-size: 13px;
+        }
+        &:nth-last-child(2),
+        &:nth-last-child(3) {
+          flex: 0 0 calc(100% / 2 - 10px);
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .popUpWraper {
+    padding: 20px;
+    height: 380px;
+    .clanderBox {
+      flex: 0 0 50%;
+    }
+    .timeSlot {
+      flex: 0 0 50%;
+      padding: 0px 0px 0px 20px;
+      h5 {
+        font-size: 18px;
+        line-height: 25px;
+      }
+      .timingCalender {
+        height: 250px;
+        padding-right: 20px;
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+        .titName {
+          font-size: 12px;
+          line-height: 16px;
+        }
+        ul {
+          margin-bottom: 10px;
+          li {
+            flex: 0 0 100%;
+            font-size: 13px;
+            line-height: 15px;
+            height: 30px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+    .closedBtn {
+      svg {
+        height: 25px;
+      }
+    }
+    .popFooter {
+      margin-top: 15px;
+      height: 50px;
+      padding: 0px 20px;
+      gap: 10px;
+      .btnBox {
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+      }
+    }
+  }
+  .popUpPayment {
+    padding: 20px;
+    height: 380px;
+    h5 {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .closedBtn {
+      top: 18px;
+      right: 18px;
+      svg {
+        width: auto;
+        height: 25px;
+      }
+    }
+    .paymentList {
+      .cardImg {
+        flex: 0 0 90px;
+        height: 60px;
+        background: #fff;
+        border-radius: 10px;
+        img {
+          height: 30px;
+        }
+      }
+      .cardContent {
+        flex: 0 0 calc(100% - 140px);
+        .name {
+          font-size: 12px;
+          line-height: 18px;
+        }
+        .number {
+          font-size: 13px;
+          line-height: 25px;
+        }
+        .expiry {
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+      .cardCheck {
+        flex-wrap: 0 0 30px;
+        label {
+          &::after {
+            width: 22px;
+            height: 22px;
+          }
+          &::before {
+            width: 14px;
+            height: 14px;
+            right: 24px;
+          }
+        }
+      }
+    }
+    .btnPayment {
+      font-size: 13px;
+      line-height: 13px;
+      height: 45px;
+    }
+    .popFooter {
+      margin-top: 10px;
+      height: 50px;
+      .btnBox {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+      }
+    }
+    .paymentFields {
+      .fieldGroup {
+        label {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        input {
+          height: 45px;
+          width: 100%;
+          font-size: 13px;
+        }
+        &:nth-last-child(2),
+        &:nth-last-child(3) {
+          flex: 0 0 calc(100% / 2 - 10px);
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .popUpWraper {
+    padding: 20px;
+    height: auto;
+    .clanderBox {
+      flex: 0 0 100%;
+    }
+    .timeSlot {
+      flex: 0 0 100%;
+      padding: 0px 0px 0px 0px;
+      h5 {
+        font-size: 18px;
+        line-height: 25px;
+      }
+      .timingCalender {
+        height: 250px;
+        padding-right: 20px;
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+        .titName {
+          font-size: 12px;
+          line-height: 16px;
+        }
+        ul {
+          margin-bottom: 10px;
+          li {
+            flex: 0 0 100%;
+            font-size: 13px;
+            line-height: 15px;
+            height: 30px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+    .closedBtn {
+      top: 10px;
+      right: 10px;
+      svg {
+        height: 25px;
+      }
+    }
+    .popFooter {
+      margin-top: 15px;
+      height: 50px;
+      padding: 0px 20px;
+      gap: 10px;
+      .btnBox {
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+      }
+    }
+  }
+  .popUpPayment {
+    padding: 15px;
+    height: auto;
+    h5 {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .closedBtn {
+      top: 18px;
+      right: 18px;
+      svg {
+        width: auto;
+        height: 25px;
+      }
+    }
+    .paymentList {
+      .cardImg {
+        flex: 0 0 60px;
+        height: 60px;
+        background: #fff;
+        border-radius: 10px;
+        img {
+          height: 30px;
+        }
+      }
+      .cardContent {
+        flex: 0 0 calc(100% - 90px);
+        .name {
+          font-size: 12px;
+          line-height: 18px;
+        }
+        .number {
+          font-size: 12px;
+          line-height: 20px;
+        }
+        .expiry {
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+      .cardCheck {
+        flex-wrap: 0 0 20px;
+        label {
+          &::after {
+            width: 22px;
+            height: 22px;
+          }
+          &::before {
+            width: 14px;
+            height: 14px;
+            right: 24px;
+          }
+        }
+      }
+    }
+    .btnPayment {
+      font-size: 13px;
+      line-height: 13px;
+      height: 45px;
+    }
+    .popFooter {
+      margin-top: 10px;
+      height: 50px;
+      .btnBox {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+      }
+    }
+    .paymentFields {
+      .fieldGroup {
+        label {
+          font-size: 14px;
+          line-height: 16px;
+        }
+        input {
+          height: 45px;
+          width: 100%;
+          font-size: 13px;
+        }
+        &:nth-last-child(2),
+        &:nth-last-child(3) {
+          flex: 0 0 calc(100% / 2 - 10px);
+        }
+      }
+    }
+  }
+}

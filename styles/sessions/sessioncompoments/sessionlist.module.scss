@@ -9,7 +9,7 @@
     margin-bottom: 20px;
     margin-top: 50px;
   }
-  .sessionWarrper {
+  .sessionWrapper {
     .sessionListing {
       display: flex;
       justify-content: space-between;
@@ -89,6 +89,43 @@
     }
   }
 }
+.sessionTabs {
+  .coursesTabs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    li {
+      background: #ffffff;
+      border-radius: 8px;
+      height: 40px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      letter-spacing: -0.165px;
+      color: #798aa4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 100px;
+      padding: 0px 20px;
+      cursor: pointer;
+      &.active {
+        background: rgb(26, 118, 255, 0.2);
+        border-radius: 8px;
+        color: #1a76ff;
+      }
+      &:hover {
+        background: rgb(26, 118, 255, 0.2);
+        border-radius: 8px;
+        color: #1a76ff;
+      }
+    }
+  }
+}
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .sessionList {
     .sessionTitle {
@@ -97,7 +134,7 @@
       margin-bottom: 20px;
       margin-top: 40px;
     }
-    .sessionWarrper {
+    .sessionWrapper {
       .sessionListing {
         padding: 15px;
         margin-bottom: 20px;
@@ -132,6 +169,19 @@
       }
     }
   }
+  .sessionTabs {
+    .coursesTabs {
+      gap: 10px;
+      margin-bottom: 20px;
+      li {
+        height: 40px;
+        font-size: 14px;
+        line-height: 16px;
+        min-width: 100px;
+        padding: 0px 20px;
+      }
+    }
+  }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .sessionList {
@@ -141,7 +191,7 @@
       margin-bottom: 15px;
       margin-top: 40px;
     }
-    .sessionWarrper {
+    .sessionWrapper {
       .sessionListing {
         padding: 15px;
         margin-bottom: 10px;
@@ -176,6 +226,19 @@
       }
     }
   }
+  .sessionTabs {
+    .coursesTabs {
+      gap: 10px;
+      margin-bottom: 20px;
+      li {
+        height: 40px;
+        font-size: 13px;
+        line-height: 13px;
+        min-width: 100px;
+        padding: 0px 20px;
+      }
+    }
+  }
 }
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   .sessionList {
@@ -185,7 +248,7 @@
       margin-bottom: 15px;
       margin-top: 30px;
     }
-    .sessionWarrper {
+    .sessionWrapper {
       .sessionListing {
         padding: 15px;
         margin-bottom: 10px;
@@ -221,6 +284,19 @@
             line-height: 13px;
           }
         }
+      }
+    }
+  }
+  .sessionTabs {
+    .coursesTabs {
+      gap: 10px;
+      margin-bottom: 20px;
+      li {
+        height: 40px;
+        font-size: 13px;
+        line-height: 13px;
+        min-width: 100px;
+        padding: 0px 20px;
       }
     }
   }
@@ -233,7 +309,7 @@
       margin-bottom: 15px;
       margin-top: 30px;
     }
-    .sessionWarrper {
+    .sessionWrapper {
       .sessionListing {
         padding: 15px;
         margin-bottom: 10px;
@@ -272,6 +348,19 @@
       }
     }
   }
+  .sessionTabs {
+    .coursesTabs {
+      gap: 10px;
+      margin-bottom: 20px;
+      li {
+        height: 40px;
+        font-size: 13px;
+        line-height: 13px;
+        min-width: 100px;
+        padding: 0px 20px;
+      }
+    }
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   .sessionList {
@@ -281,7 +370,7 @@
       margin-bottom: 15px;
       margin-top: 30px;
     }
-    .sessionWarrper {
+    .sessionWrapper {
       .sessionListing {
         padding: 15px;
         margin-bottom: 10px;
@@ -320,6 +409,19 @@
             border-radius: 5px;
           }
         }
+      }
+    }
+  }
+  .sessionTabs {
+    .coursesTabs {
+      gap: 5px;
+      margin-bottom: 20px;
+      li {
+        height: 35px;
+        font-size: 12px;
+        line-height: 12px;
+        min-width: 90px;
+        padding: 0px 10px;
       }
     }
   }
@@ -332,7 +434,7 @@
       margin-bottom: 15px;
       margin-top: 30px;
     }
-    .sessionWarrper {
+    .sessionWrapper {
       .sessionListing {
         padding: 15px;
         margin-bottom: 10px;
@@ -374,6 +476,19 @@
       }
     }
   }
+  .sessionTabs {
+    .coursesTabs {
+      gap: 5px;
+      margin-bottom: 10px;
+      li {
+        height: 35px;
+        font-size: 12px;
+        line-height: 12px;
+        min-width: 80px;
+        padding: 0px 10px;
+      }
+    }
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .sessionList {
@@ -383,7 +498,7 @@
       margin-bottom: 15px;
       margin-top: 20px;
     }
-    .sessionWarrper {
+    .sessionWrapper {
       .sessionListing {
         padding: 15px;
         margin-bottom: 10px;
@@ -423,6 +538,21 @@
             border-radius: 5px;
           }
         }
+      }
+    }
+  }
+  .sessionTabs {
+    .coursesTabs {
+      gap: 5px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+      li {
+        flex: 0 0 100%;
+        height: 35px;
+        font-size: 12px;
+        line-height: 12px;
+        min-width: 80px;
+        padding: 0px 10px;
       }
     }
   }

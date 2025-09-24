@@ -41,7 +41,6 @@ const CoursesListing = () => {
 
     return (
         <div className={styles.coursesContainer}>
-            {/* Tabs */}
             <ul className={styles.coursesTabs}>
                 {["all", "not-started", "in-progress", "completed"].map(tab => (
                     <li
@@ -56,8 +55,6 @@ const CoursesListing = () => {
                     </li>
                 ))}
             </ul>
-
-            {/* Courses */}
             <div className={styles.coursesContent}>
                 {paginatedCourses.map(course => (
                     <div className={styles.coursesSection} key={course.id}>
